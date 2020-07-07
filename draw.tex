@@ -90,11 +90,38 @@ environment onto and isolated subsystem $I$,
 	v^{'}_{int} [\eta] (r) = v[\eta](r) - \bar{v} [\eta_I](r)
 \end{equation}
 
-Where $v[\eta](r)$ is the total Coulomb potential of the system and $\bar{v} [\eta_I](r)$ the potential of the isolated subsystem $I$. The latter was evaluated using the Martyna-Tuckerman method whereby density $\eta_I$ is assumed to be isolated and not periodic \cite{martyna1999reciprocal}. The embedding potential for the neutral subsystem can also be calculated directly from equation $3$.
+Where $v[\eta](r)$ is the total Coulomb potential of the system and $\bar{v} [\eta_I](r)$ the potential of the isolated subsystem $I$. The latter was
+evaluated using the Martyna-Tuckerman method whereby density $\eta_I$ is assumed to be isolated and not periodic \cite{martyna1999reciprocal}.
+The embedding potential for the neutral subsystem can also be calculated directly from equation $3$.
 
 \subsection{Impurity Model for the Ionized system}
 
+To obtain the embedding potential of a charged subsystem, we consider the system to be composed of an ionized subsystem embedded in a nonionized
+environment. To assemble the appropriate embedding potential, first was evaluated a screening potential,
+$v^{screen}[\eta_I](r) = v[\eta_I](r) - \bar{v} [\eta_I](r)$, for both charged and neutral subsystems (understood as a self-interaction of the
+charge in PBC). The embedding potential depends on thre densities: $\eta$, the total system, $\eta^{'}_I$, the neutral subsystem, and $\eta_I$ the
+charged subsystem, and has the form,
+
+\begin{equation}
+	v^I_{emb,imp}[\eta](r) = v[\eta, \eta^{'}_I, \eta_I](r) - \bar{\eta_I}(r)
+\end{equation}
+
+with
+
+\begin{equation}
+	v[\eta, \eta^{'}_I, \eta_I](r) = v[\eta](r) + \Delta{v}^{screen}[\eta_I, \eta^{'}_I](r)
+\end{equation}
+
+where $\Delta{v}^{screen}[\eta_I, \eta^{'}_I](r) = {v}^{screen}[\eta^{'}_I] - {v}^{screen}[\eta_I]$
+
 \section{Computational Section}
+
+All calculatons were carried out with embedded Quatum ESPRESSO (eEQ) employing ultrasoft pseudopotentials. The graound state calculation of each
+subsystem with the corresponding neutral and polarized embedding potential was determined through ADF \cite{te2001chemistry} software. A comparison
+among Density Functional Theory (DFT), using GGA(PBE), Hybrid(B3LYP), Double-Hybrid (B2KPLYP, B2NCPLYP, and REVDSDBLYP) and Statistical average of
+orbital potentials(SOAP) models, Møller–Plesset perturbation theory (MP2) and HF methods was made, with the basis QZ4P. The final IP/EA values are
+calculated using an average for each of the 256 water molecules or subsystems considered in the simulation cell, calculated by the energy difference
+of the neutral and the polarized system (Called $\Delta$SCF method) \cite{bagus1965self,waskom2017mwaskom}.
 
 \section{Results}
 \subsection{IPs of Bulk water}
