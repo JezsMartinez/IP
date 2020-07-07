@@ -80,19 +80,20 @@ The two Coulombic terms $E^{int}_H$ and $V^{int}_eN$ are the electron-electron a
 nonadditive terms $T^{nad}_s$ and $E^{nad}_{xc}$, represent the noninteracting kinetic energy of the system and the noninteracting
 exchange-correlation functionals, respectively ~\cite{krishtal2015subsystem}. The two last terms represent interactions related among other to exchange, van der Waals and Pauli repulsion and are all bifunctional of the two subsystem densities.
 
-\subsection{Neutral System Coulomb interaction energy determination}
+\subsection{Coulomb interaction energy determination}
+\subsection{Embedding Scheme for the Neutral System}
 
 For the neutral system, the Coulomb interaction energy can be expressed as a potential that maps the interaction of an accurately infinitely extended
 environment onto and isolated subsystem $I$,
 
 \begin{equation}
-	v^{'}_{int} [\eta] (r) = v[\eta](r) - \bar{v} {\eta_I}(r)
+	v^{'}_{int} [\eta] (r) = v[\eta](r) - \bar{v} [\eta_I](r)
 \end{equation}
 
-Where $v[\eta](r)$ is the total Coulomb potential of the system and $\bar{v} {\eta_I}(r)$ the potential of the isolated subsystem $I$.
+Where $v[\eta](r)$ is the total Coulomb potential of the system and $\bar{v} [\eta_I](r)$ the potential of the isolated subsystem $I$. The latter was evaluated using the Martyna-Tuckerman method whereby density $\eta_I$ is assumed to be isolated and not periodic \cite{martyna1999reciprocal}. The embedding potential for the neutral subsystem can also be calculated directly from equation $3$.
 
-\subsection{Embedding potential scheme}
-\subsection{Impurity Model}
+\subsection{Impurity Model for the Ionized system}
+
 \section{Computational Section}
 
 \section{Results}
