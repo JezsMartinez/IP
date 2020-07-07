@@ -1,7 +1,7 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Theoretical Background}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Mapping a perdic system into a collection of non-periodic subsystems and one periodic subsystem}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Evaluating the Coulomb interaction energy}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Mapping a periodic system into a collection of non-periodic subsystems and one periodic subsystem}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Neutral System Coulomb interaction energy determination}{section.2}% 4
 \BOOKMARK [2][-]{subsection.2.3}{Embedding potential scheme}{section.2}% 5
 \BOOKMARK [2][-]{subsection.2.4}{Impurity Model}{section.2}% 6
 \BOOKMARK [1][-]{section.3}{Computational Section}{}% 7

@@ -60,8 +60,37 @@ neutral and the polarized system (Called SCF method) ~\cite{bagus1965self,waskom
 \section{Introduction}
 
 \section{Theoretical Background}
-\subsection{Mapping a perdic system into a collection of non-periodic subsystems and one periodic subsystem}
-\subsection{Evaluating the Coulomb interaction energy}
+
+\subsection{Mapping a periodic system into a collection of non-periodic subsystems and one periodic subsystem}
+To cast DFT in a subsystem fashion, we invoke nonadditive functionals in which each energy term of the supersystem is expressed as the sum of additive
+and nonadditive contributions ~\cite{martyna1999reciprocal}. Therefore, when dealing with a finite subsystem with electron density $\eta_I$, and an
+infinite or extended subsystem with electron density $\eta$ - $\eta_I$, the total energy is given by,
+
+\begin{equation}
+	E_{tot} = {E_[{\eta}_I]} + {E_[{\eta} - {\eta}_I]} + {E^{int}[{\eta}_I, {\eta} - {\eta}_I] } 
+\end{equation}
+
+And the interaction energy can be broken down into the following contributions,
+
+\begin{equation}
+	E^{int} = E^{int}_H + V^{int}_eN + T^{nad}_s + E^{nad}_{xc} 
+\end{equation}
+
+The two Coulombic terms $E^{int}_H$ and $V^{int}_eN$ are the electron-electron and electro-nuclear interactions, respectively. And the
+nonadditive terms $T^{nad}_s$ and $E^{nad}_{xc}$, represent the noninteracting kinetic energy of the system and the noninteracting
+exchange-correlation functionals, respectively ~\cite{krishtal2015subsystem}. The two last terms represent interactions related among other to exchange, van der Waals and Pauli repulsion and are all bifunctional of the two subsystem densities.
+
+\subsection{Neutral System Coulomb interaction energy determination}
+
+For the neutral system, the Coulomb interaction energy can be expressed as a potential that maps the interaction of an accurately infinitely extended
+environment onto and isolated subsystem $I$,
+
+\begin{equation}
+	v^{'}_{int} [\eta] (r) = v[\eta](r) - \bar{v} {\eta_I}(r)
+\end{equation}
+
+Where $v[\eta](r)$ is the total Coulomb potential of the system and $\bar{v} {\eta_I}(r)$ the potential of the isolated subsystem $I$.
+
 \subsection{Embedding potential scheme}
 \subsection{Impurity Model}
 \section{Computational Section}
