@@ -2189,17 +2189,14 @@
     <bcf:citekey order="2">martyna1999reciprocal</bcf:citekey>
     <bcf:citekey order="3">krishtal2015subsystem</bcf:citekey>
     <bcf:citekey order="4">tolle2019charged</bcf:citekey>
-    <bcf:citekey order="5">genova2017eqe</bcf:citekey>
-    <bcf:citekey order="6">saue2020dirac</bcf:citekey>
-    <bcf:citekey order="7">te2001chemistry</bcf:citekey>
-    <bcf:citekey order="8">bagus1965self</bcf:citekey>
-    <bcf:citekey order="8">waskom2017mwaskom</bcf:citekey>
-    <bcf:citekey order="9">martyna1999reciprocal</bcf:citekey>
-    <bcf:citekey order="10">krishtal2015subsystem</bcf:citekey>
-    <bcf:citekey order="11">martyna1999reciprocal</bcf:citekey>
-    <bcf:citekey order="12">te2001chemistry</bcf:citekey>
-    <bcf:citekey order="13">bagus1965self</bcf:citekey>
-    <bcf:citekey order="13">waskom2017mwaskom</bcf:citekey>
+    <bcf:citekey order="5">bagus1965self</bcf:citekey>
+    <bcf:citekey order="5">waskom2017mwaskom</bcf:citekey>
+    <bcf:citekey order="6">martyna1999reciprocal</bcf:citekey>
+    <bcf:citekey order="7">krishtal2015subsystem</bcf:citekey>
+    <bcf:citekey order="8">martyna1999reciprocal</bcf:citekey>
+    <bcf:citekey order="9">te2001chemistry</bcf:citekey>
+    <bcf:citekey order="10">bagus1965self</bcf:citekey>
+    <bcf:citekey order="10">waskom2017mwaskom</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
