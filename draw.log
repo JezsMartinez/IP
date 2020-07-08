@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.17)  8 JUL 2020 10:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.17)  8 JUL 2020 10:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -609,39 +609,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Citation 'gaiduk2018electron' on page 1 undefined on input line 
-59.
-
-
-LaTeX Warning: Citation 'gaiduk2016photoelectron' on page 1 undefined on input 
-line 59.
-
-
-LaTeX Warning: Citation 'seidel2016valence' on page 1 undefined on input line 5
-9.
-
-
-LaTeX Warning: Citation 'ambrosio2017electronic' on page 1 undefined on input l
-ine 60.
-
-
-LaTeX Warning: Citation 'ziaei2018probing' on page 1 undefined on input line 61
-.
-
-
-LaTeX Warning: Citation 'gaiduk2018electron' on page 1 undefined on input line 
-62.
-
-
 Overfull \hbox (5.22418pt too wide) in paragraph at lines 58--65
 \OT1/cmr/m/n/12 The high-accuracy cal-cu-la-tions of ion-iza-tion po-ten-tials 
 (IPs) and elec-tron affini-ties (EAs) of condensed-
- []
-
-
-Overfull \hbox (33.70538pt too wide) in paragraph at lines 58--65
-\OT1/cmr/m/n/12 men-tal and com-pu-ta-tional fields [[], [], [],
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -652,12 +622,12 @@ been already used, duplicate ignored
                    \relax 
 l.85 
       [1] [2]
-<./images/IP-mp2-hf.png, id=96, 282.30469pt x 202.50656pt>
+<./images/IP-mp2-hf.png, id=105, 282.30469pt x 202.50656pt>
 File: ./images/IP-mp2-hf.png Graphic file (type png)
 <use ./images/IP-mp2-hf.png>
 Package pdftex.def Info: ./images/IP-mp2-hf.png  used on input line 153.
 (pdftex.def)             Requested size: 204.85672pt x 146.95407pt.
-<./images/IP-mp2-dft.png, id=98, 289.08pt x 202.50656pt>
+<./images/IP-mp2-dft.png, id=107, 289.08pt x 202.50656pt>
 File: ./images/IP-mp2-dft.png Graphic file (type png)
 <use ./images/IP-mp2-dft.png>
 Package pdftex.def Info: ./images/IP-mp2-dft.png  used on input line 157.
@@ -672,25 +642,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
 Package rerunfilecheck Info: File `draw.out' has not changed.
 (rerunfilecheck)             Checksum: 94D5F6CA472935575994B1F4B004781E;775.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                draw
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'draw.run.xml'.
 \openout1 = `draw.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
  ) 
 Here is how much of TeX's memory you used:
- 14057 strings out of 480478
- 249156 string characters out of 5899580
- 897551 words of memory out of 5000000
- 29893 multiletter control sequences out of 15000+600000
+ 14072 strings out of 480478
+ 249809 string characters out of 5899580
+ 897753 words of memory out of 5000000
+ 29903 multiletter control sequences out of 15000+600000
  540122 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,7n,47p,909b,1293s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -707,10 +668,10 @@ exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/tex
 live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on draw.pdf (5 pages, 189552 bytes).
+Output written on draw.pdf (5 pages, 190730 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 

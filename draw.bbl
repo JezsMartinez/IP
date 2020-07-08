@@ -63,40 +63,6 @@
       \field{pages}{e25801}
       \range{pages}{-1}
     \endentry
-    \entry{martyna1999reciprocal}{article}{}
-      \name{author}{2}{}{%
-        {{hash=3fb90bbe2266169b3ee467645ec481dd}{%
-           family={Martyna},
-           familyi={M\bibinitperiod},
-           given={Glenn\bibnamedelima J},
-           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=3dfd41d12a2896dd0ca93271e1d9e9cc}{%
-           family={Tuckerman},
-           familyi={T\bibinitperiod},
-           given={Mark\bibnamedelima E},
-           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Institute of Physics}%
-      }
-      \strng{namehash}{4a1b1c414a77915a1c733690dd792207}
-      \strng{fullhash}{4a1b1c414a77915a1c733690dd792207}
-      \strng{bibnamehash}{4a1b1c414a77915a1c733690dd792207}
-      \strng{authorbibnamehash}{4a1b1c414a77915a1c733690dd792207}
-      \strng{authornamehash}{4a1b1c414a77915a1c733690dd792207}
-      \strng{authorfullhash}{4a1b1c414a77915a1c733690dd792207}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of chemical physics}
-      \field{number}{6}
-      \field{title}{A reciprocal space based method for treating long range interactions in ab initio and force-field-based calculations in clusters}
-      \field{volume}{110}
-      \field{year}{1999}
-      \field{pages}{2810\bibrangedash 2821}
-      \range{pages}{12}
-    \endentry
     \entry{krishtal2015subsystem}{article}{}
       \name{author}{4}{}{%
         {{hash=7219c534f0cbe94e38d2428d95ed3d83}{%
@@ -129,8 +95,8 @@
       \strng{authorbibnamehash}{c0ad4a8f368db840b02070d420ffd193}
       \strng{authornamehash}{b66756c9a935156c66141a57eb8aaadf}
       \strng{authorfullhash}{c0ad4a8f368db840b02070d420ffd193}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Physics: Condensed Matter}
@@ -140,197 +106,6 @@
       \field{year}{2015}
       \field{pages}{183202}
       \range{pages}{1}
-    \endentry
-    \entry{genova2017eqe}{article}{}
-      \name{author}{6}{}{%
-        {{hash=5461889635d45e6b9bb5113738578605}{%
-           family={Genova},
-           familyi={G\bibinitperiod},
-           given={Alessandro},
-           giveni={A\bibinitperiod}}}%
-        {{hash=efa8c2fbb9fb85ac5b7d027b6e7c7645}{%
-           family={Ceresoli},
-           familyi={C\bibinitperiod},
-           given={Davide},
-           giveni={D\bibinitperiod}}}%
-        {{hash=7219c534f0cbe94e38d2428d95ed3d83}{%
-           family={Krishtal},
-           familyi={K\bibinitperiod},
-           given={Alisa},
-           giveni={A\bibinitperiod}}}%
-        {{hash=ba19573a7f545a9f41b1462fea694355}{%
-           family={Andreussi},
-           familyi={A\bibinitperiod},
-           given={Oliviero},
-           giveni={O\bibinitperiod}}}%
-        {{hash=63996b0f82180abd5e5d88b514ef5b95}{%
-           family={DiStasio\bibnamedelima Jr},
-           familyi={D\bibinitperiod\bibinitdelim J\bibinitperiod},
-           given={Robert\bibnamedelima A},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=5780533a3470b49e371d37a05db41de9}{%
-           family={Pavanello},
-           familyi={P\bibinitperiod},
-           given={Michele},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{a3edc2262fe5063dfde7dcebf3d54c11}
-      \strng{fullhash}{d0aedb0ec1e9250149615d6198000352}
-      \strng{bibnamehash}{a3edc2262fe5063dfde7dcebf3d54c11}
-      \strng{authorbibnamehash}{a3edc2262fe5063dfde7dcebf3d54c11}
-      \strng{authornamehash}{a3edc2262fe5063dfde7dcebf3d54c11}
-      \strng{authorfullhash}{d0aedb0ec1e9250149615d6198000352}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Quantum Chemistry}
-      \field{number}{16}
-      \field{title}{eQE: An open-source density functional embedding theory code for the condensed phase}
-      \field{volume}{117}
-      \field{year}{2017}
-      \field{pages}{e25401}
-      \range{pages}{-1}
-    \endentry
-    \entry{saue2020dirac}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{10}{}{%
-        {{hash=9e42fcc29ffdfe101fe233812ecf0ed9}{%
-           family={Saue},
-           familyi={S\bibinitperiod},
-           given={Trond},
-           giveni={T\bibinitperiod}}}%
-        {{hash=9a5701030e564fd66a92493f048b094e}{%
-           family={Bast},
-           familyi={B\bibinitperiod},
-           given={Radovan},
-           giveni={R\bibinitperiod}}}%
-        {{hash=5ae6228a5737e6cedd859e138923b8fe}{%
-           family={Gomes},
-           familyi={G\bibinitperiod},
-           given={Andr{é}\bibnamedelimb Severo\bibnamedelima Pereira},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=be944eb14773f13c1f2ea0979d217730}{%
-           family={Jensen},
-           familyi={J\bibinitperiod},
-           given={Hans\bibnamedelimb J{ø}rgen\bibnamedelima Aa},
-           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=83705bfa4b1fc17c437f8ad59291be4c}{%
-           family={Visscher},
-           familyi={V\bibinitperiod},
-           given={Lucas},
-           giveni={L\bibinitperiod}}}%
-        {{hash=58ba235967a373415ee7eb8201f63954}{%
-           family={Aucar},
-           familyi={A\bibinitperiod},
-           given={Ignacio\bibnamedelima Agust{ı́}n},
-           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=5097127c5746c3da727ad7f68b6b576c}{%
-           family={Di\bibnamedelima Remigio},
-           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
-           given={Roberto},
-           giveni={R\bibinitperiod}}}%
-        {{hash=b67e25521ba09cf129618e2080d716d0}{%
-           family={Dyall},
-           familyi={D\bibinitperiod},
-           given={Kenneth\bibnamedelima G},
-           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=592b6454e8a63382e6c3b7e544c579d1}{%
-           family={Eliav},
-           familyi={E\bibinitperiod},
-           given={Ephraim},
-           giveni={E\bibinitperiod}}}%
-        {{hash=db96c50127d2f280211600b3dbf502e9}{%
-           family={Fasshauer},
-           familyi={F\bibinitperiod},
-           given={Elke},
-           giveni={E\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {AIP Publishing LLC}%
-      }
-      \strng{namehash}{1a167cb709b78b9547c4fb500c752293}
-      \strng{fullhash}{dca2d5566da7156b794f071445a14d19}
-      \strng{bibnamehash}{1a167cb709b78b9547c4fb500c752293}
-      \strng{authorbibnamehash}{1a167cb709b78b9547c4fb500c752293}
-      \strng{authornamehash}{1a167cb709b78b9547c4fb500c752293}
-      \strng{authorfullhash}{dca2d5566da7156b794f071445a14d19}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of Chemical Physics}
-      \field{number}{20}
-      \field{title}{The DIRAC code for relativistic molecular calculations}
-      \field{volume}{152}
-      \field{year}{2020}
-      \field{pages}{204104}
-      \range{pages}{1}
-    \endentry
-    \entry{te2001chemistry}{article}{}
-      \name{author}{7}{}{%
-        {{hash=8a650c02516cd7d90f05f205f514e095}{%
-           family={Te\bibnamedelima Velde},
-           familyi={T\bibinitperiod\bibinitdelim V\bibinitperiod},
-           given={G\bibnamedelima t},
-           giveni={G\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
-        {{hash=d3f453e2faa2caa64d1f08299147d8c9}{%
-           family={Bickelhaupt},
-           familyi={B\bibinitperiod},
-           given={F\bibnamedelima Matthias},
-           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-        {{hash=70c93ee7ceed738cba1a75e407565c6e}{%
-           family={Baerends},
-           familyi={B\bibinitperiod},
-           given={Evert\bibnamedelima Jan},
-           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=6b8b3740bab7777bd36c07016d673efe}{%
-           family={Fonseca\bibnamedelima Guerra},
-           familyi={F\bibinitperiod\bibinitdelim G\bibinitperiod},
-           given={C},
-           giveni={C\bibinitperiod}}}%
-        {{hash=9218fc8010c83dc401680acadf10ac1a}{%
-           family={Gisbergen},
-           familyi={G\bibinitperiod},
-           given={Stan\bibnamedelima JA},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
-           prefix={van},
-           prefixi={v\bibinitperiod}}}%
-        {{hash=0d1bd4c33037f44b208d8e5a87f84ec3}{%
-           family={Snijders},
-           familyi={S\bibinitperiod},
-           given={Jaap\bibnamedelima G},
-           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=2077d8f03f16910c00feac9e5b03fc51}{%
-           family={Ziegler},
-           familyi={Z\bibinitperiod},
-           given={Tom},
-           giveni={T\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{c150b81f81d82e3770c181267bf3bb20}
-      \strng{fullhash}{75c919596d30b519657b2a0ee95989e9}
-      \strng{bibnamehash}{c150b81f81d82e3770c181267bf3bb20}
-      \strng{authorbibnamehash}{c150b81f81d82e3770c181267bf3bb20}
-      \strng{authornamehash}{c150b81f81d82e3770c181267bf3bb20}
-      \strng{authorfullhash}{75c919596d30b519657b2a0ee95989e9}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Computational Chemistry}
-      \field{number}{9}
-      \field{title}{Chemistry with ADF}
-      \field{volume}{22}
-      \field{year}{2001}
-      \field{pages}{931\bibrangedash 967}
-      \range{pages}{37}
     \endentry
     \entry{bagus1965self}{article}{}
       \name{author}{1}{}{%
@@ -349,8 +124,8 @@
       \strng{authorbibnamehash}{646003d78cd00e77bbdccf357b76a985}
       \strng{authornamehash}{646003d78cd00e77bbdccf357b76a985}
       \strng{authorfullhash}{646003d78cd00e77bbdccf357b76a985}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physical Review}
@@ -422,14 +197,380 @@
       \strng{authorbibnamehash}{dfb4b1b2b521f6afe19180e9d7199232}
       \strng{authornamehash}{dfb4b1b2b521f6afe19180e9d7199232}
       \strng{authorfullhash}{8ab3f9437607b3cc88b6762dd315afa3}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Zenodo, doi}
       \field{title}{mwaskom/seaborn: v0. 8.1 (September 2017)}
       \field{volume}{10}
       \field{year}{2017}
+    \endentry
+    \entry{gaiduk2018electron}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7a8bee50411492011ca9084df9085a1c}{%
+           family={Gaiduk},
+           familyi={G\bibinitperiod},
+           given={Alex\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=bd9dc7b08d155e029e73e8a32416c6f4}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Tuan\bibnamedelima Anh},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9b152b90d372ea748fc9b048d0c62874}{%
+           family={Govoni},
+           familyi={G\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dd1eb69c2fcce3e9bbc491cc19303b37}{%
+           family={Paesani},
+           familyi={P\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a445f4adf3884b1260180426357334a6}{%
+           family={Galli},
+           familyi={G\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{1d760e0dd4c531548ca27269473ed4c6}
+      \strng{fullhash}{8b847135d2efcca70455023478faacaa}
+      \strng{bibnamehash}{8b847135d2efcca70455023478faacaa}
+      \strng{authorbibnamehash}{8b847135d2efcca70455023478faacaa}
+      \strng{authornamehash}{1d760e0dd4c531548ca27269473ed4c6}
+      \strng{authorfullhash}{8b847135d2efcca70455023478faacaa}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature communications}
+      \field{number}{1}
+      \field{title}{Electron affinity of liquid water}
+      \field{volume}{9}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{gaiduk2016photoelectron}{article}{}
+      \name{author}{6}{}{%
+        {{hash=7a8bee50411492011ca9084df9085a1c}{%
+           family={Gaiduk},
+           familyi={G\bibinitperiod},
+           given={Alex\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=9b152b90d372ea748fc9b048d0c62874}{%
+           family={Govoni},
+           familyi={G\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4386d26c42106fc98c29b47aa17bb1be}{%
+           family={Seidel},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=040147245695fbcd1720fb9da1121e37}{%
+           family={Skone},
+           familyi={S\bibinitperiod},
+           given={Jonathan\bibnamedelima H},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=1d5686ca3b3fb289882d2038f52237b7}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod}}}%
+        {{hash=a445f4adf3884b1260180426357334a6}{%
+           family={Galli},
+           familyi={G\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{1d760e0dd4c531548ca27269473ed4c6}
+      \strng{fullhash}{b0b44bb34530c030b02c373726a4aec9}
+      \strng{bibnamehash}{1d760e0dd4c531548ca27269473ed4c6}
+      \strng{authorbibnamehash}{1d760e0dd4c531548ca27269473ed4c6}
+      \strng{authornamehash}{1d760e0dd4c531548ca27269473ed4c6}
+      \strng{authorfullhash}{b0b44bb34530c030b02c373726a4aec9}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{number}{22}
+      \field{title}{Photoelectron spectra of aqueous solutions from first principles}
+      \field{volume}{138}
+      \field{year}{2016}
+      \field{pages}{6912\bibrangedash 6915}
+      \range{pages}{4}
+    \endentry
+    \entry{seidel2016valence}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4386d26c42106fc98c29b47aa17bb1be}{%
+           family={Seidel},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1d5686ca3b3fb289882d2038f52237b7}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c5adc4646576d9b12cff24da744b4f7e}{%
+           family={Bradforth},
+           familyi={B\bibinitperiod},
+           given={Stephen\bibnamedelima E},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{77a63e6e584f590355810beb4c924f5a}
+      \strng{fullhash}{7b19f2dae924da9744d3bdfd9514eb07}
+      \strng{bibnamehash}{7b19f2dae924da9744d3bdfd9514eb07}
+      \strng{authorbibnamehash}{7b19f2dae924da9744d3bdfd9514eb07}
+      \strng{authornamehash}{77a63e6e584f590355810beb4c924f5a}
+      \strng{authorfullhash}{7b19f2dae924da9744d3bdfd9514eb07}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual review of physical chemistry}
+      \field{title}{Valence electronic structure of aqueous solutions: Insights from photoelectron spectroscopy}
+      \field{volume}{67}
+      \field{year}{2016}
+      \field{pages}{283\bibrangedash 305}
+      \range{pages}{23}
+    \endentry
+    \entry{ambrosio2017electronic}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a61804e35c71aefd55dd7635cbf5f480}{%
+           family={Ambrosio},
+           familyi={A\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b0953e042c05820ebd59ce33f7097360}{%
+           family={Miceli},
+           familyi={M\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f4341ab71cd5e1da6ebb75086dcdefd4}{%
+           family={Pasquarello},
+           familyi={P\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{f229a22b1bcb1bba4314c264619a387f}
+      \strng{fullhash}{2743d51ad2f92259362dc6ccb6502ddc}
+      \strng{bibnamehash}{2743d51ad2f92259362dc6ccb6502ddc}
+      \strng{authorbibnamehash}{2743d51ad2f92259362dc6ccb6502ddc}
+      \strng{authornamehash}{f229a22b1bcb1bba4314c264619a387f}
+      \strng{authorfullhash}{2743d51ad2f92259362dc6ccb6502ddc}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Physical Chemistry Letters}
+      \field{number}{9}
+      \field{title}{Electronic levels of excess electrons in liquid water}
+      \field{volume}{8}
+      \field{year}{2017}
+      \field{pages}{2055\bibrangedash 2059}
+      \range{pages}{5}
+    \endentry
+    \entry{ziaei2018probing}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b3074948cc0de5806d4a00f78975b57f}{%
+           family={Ziaei},
+           familyi={Z\bibinitperiod},
+           given={Vafa},
+           giveni={V\bibinitperiod}}}%
+        {{hash=af90494e7590949356f68dfb5b026942}{%
+           family={Bredow},
+           familyi={B\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{5dd96ebec26ea7fab0fb02236db3762a}
+      \strng{fullhash}{5dd96ebec26ea7fab0fb02236db3762a}
+      \strng{bibnamehash}{5dd96ebec26ea7fab0fb02236db3762a}
+      \strng{authorbibnamehash}{5dd96ebec26ea7fab0fb02236db3762a}
+      \strng{authornamehash}{5dd96ebec26ea7fab0fb02236db3762a}
+      \strng{authorfullhash}{5dd96ebec26ea7fab0fb02236db3762a}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Condensed Matter}
+      \field{number}{21}
+      \field{title}{Probing ionization potential, electron affinity and self-energy effect on the spectral shape and exciton binding energy of quantum liquid water with self-consistent many-body perturbation theory and the Bethe--Salpeter equation}
+      \field{volume}{30}
+      \field{year}{2018}
+      \field{pages}{215502}
+      \range{pages}{1}
+    \endentry
+    \entry{martyna1999reciprocal}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3fb90bbe2266169b3ee467645ec481dd}{%
+           family={Martyna},
+           familyi={M\bibinitperiod},
+           given={Glenn\bibnamedelima J},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3dfd41d12a2896dd0ca93271e1d9e9cc}{%
+           family={Tuckerman},
+           familyi={T\bibinitperiod},
+           given={Mark\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Physics}%
+      }
+      \strng{namehash}{4a1b1c414a77915a1c733690dd792207}
+      \strng{fullhash}{4a1b1c414a77915a1c733690dd792207}
+      \strng{bibnamehash}{4a1b1c414a77915a1c733690dd792207}
+      \strng{authorbibnamehash}{4a1b1c414a77915a1c733690dd792207}
+      \strng{authornamehash}{4a1b1c414a77915a1c733690dd792207}
+      \strng{authorfullhash}{4a1b1c414a77915a1c733690dd792207}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of chemical physics}
+      \field{number}{6}
+      \field{title}{A reciprocal space based method for treating long range interactions in ab initio and force-field-based calculations in clusters}
+      \field{volume}{110}
+      \field{year}{1999}
+      \field{pages}{2810\bibrangedash 2821}
+      \range{pages}{12}
+    \endentry
+    \entry{te2001chemistry}{article}{}
+      \name{author}{7}{}{%
+        {{hash=8a650c02516cd7d90f05f205f514e095}{%
+           family={Te\bibnamedelima Velde},
+           familyi={T\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={G\bibnamedelima t},
+           giveni={G\bibinitperiod\bibinitdelim t\bibinitperiod}}}%
+        {{hash=d3f453e2faa2caa64d1f08299147d8c9}{%
+           family={Bickelhaupt},
+           familyi={B\bibinitperiod},
+           given={F\bibnamedelima Matthias},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=70c93ee7ceed738cba1a75e407565c6e}{%
+           family={Baerends},
+           familyi={B\bibinitperiod},
+           given={Evert\bibnamedelima Jan},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6b8b3740bab7777bd36c07016d673efe}{%
+           family={Fonseca\bibnamedelima Guerra},
+           familyi={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9218fc8010c83dc401680acadf10ac1a}{%
+           family={Gisbergen},
+           familyi={G\bibinitperiod},
+           given={Stan\bibnamedelima JA},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=0d1bd4c33037f44b208d8e5a87f84ec3}{%
+           family={Snijders},
+           familyi={S\bibinitperiod},
+           given={Jaap\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=2077d8f03f16910c00feac9e5b03fc51}{%
+           family={Ziegler},
+           familyi={Z\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{c150b81f81d82e3770c181267bf3bb20}
+      \strng{fullhash}{75c919596d30b519657b2a0ee95989e9}
+      \strng{bibnamehash}{c150b81f81d82e3770c181267bf3bb20}
+      \strng{authorbibnamehash}{c150b81f81d82e3770c181267bf3bb20}
+      \strng{authornamehash}{c150b81f81d82e3770c181267bf3bb20}
+      \strng{authorfullhash}{75c919596d30b519657b2a0ee95989e9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Computational Chemistry}
+      \field{number}{9}
+      \field{title}{Chemistry with ADF}
+      \field{volume}{22}
+      \field{year}{2001}
+      \field{pages}{931\bibrangedash 967}
+      \range{pages}{37}
+    \endentry
+    \entry{genova2017eqe}{article}{}
+      \name{author}{6}{}{%
+        {{hash=5461889635d45e6b9bb5113738578605}{%
+           family={Genova},
+           familyi={G\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=efa8c2fbb9fb85ac5b7d027b6e7c7645}{%
+           family={Ceresoli},
+           familyi={C\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7219c534f0cbe94e38d2428d95ed3d83}{%
+           family={Krishtal},
+           familyi={K\bibinitperiod},
+           given={Alisa},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ba19573a7f545a9f41b1462fea694355}{%
+           family={Andreussi},
+           familyi={A\bibinitperiod},
+           given={Oliviero},
+           giveni={O\bibinitperiod}}}%
+        {{hash=63996b0f82180abd5e5d88b514ef5b95}{%
+           family={DiStasio\bibnamedelima Jr},
+           familyi={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Robert\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5780533a3470b49e371d37a05db41de9}{%
+           family={Pavanello},
+           familyi={P\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{a3edc2262fe5063dfde7dcebf3d54c11}
+      \strng{fullhash}{d0aedb0ec1e9250149615d6198000352}
+      \strng{bibnamehash}{a3edc2262fe5063dfde7dcebf3d54c11}
+      \strng{authorbibnamehash}{a3edc2262fe5063dfde7dcebf3d54c11}
+      \strng{authornamehash}{a3edc2262fe5063dfde7dcebf3d54c11}
+      \strng{authorfullhash}{d0aedb0ec1e9250149615d6198000352}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Quantum Chemistry}
+      \field{number}{16}
+      \field{title}{eQE: An open-source density functional embedding theory code for the condensed phase}
+      \field{volume}{117}
+      \field{year}{2017}
+      \true{nocite}
+      \field{pages}{e25401}
+      \range{pages}{-1}
     \endentry
     \entry{dal2014pseudopotentials}{article}{}
       \name{author}{1}{}{%
@@ -459,6 +600,83 @@
       \true{nocite}
       \field{pages}{337\bibrangedash 350}
       \range{pages}{14}
+    \endentry
+    \entry{saue2020dirac}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=9e42fcc29ffdfe101fe233812ecf0ed9}{%
+           family={Saue},
+           familyi={S\bibinitperiod},
+           given={Trond},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9a5701030e564fd66a92493f048b094e}{%
+           family={Bast},
+           familyi={B\bibinitperiod},
+           given={Radovan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5ae6228a5737e6cedd859e138923b8fe}{%
+           family={Gomes},
+           familyi={G\bibinitperiod},
+           given={Andr{é}\bibnamedelimb Severo\bibnamedelima Pereira},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=be944eb14773f13c1f2ea0979d217730}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Hans\bibnamedelimb J{ø}rgen\bibnamedelima Aa},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=83705bfa4b1fc17c437f8ad59291be4c}{%
+           family={Visscher},
+           familyi={V\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=58ba235967a373415ee7eb8201f63954}{%
+           family={Aucar},
+           familyi={A\bibinitperiod},
+           given={Ignacio\bibnamedelima Agust{ı́}n},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5097127c5746c3da727ad7f68b6b576c}{%
+           family={Di\bibnamedelima Remigio},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b67e25521ba09cf129618e2080d716d0}{%
+           family={Dyall},
+           familyi={D\bibinitperiod},
+           given={Kenneth\bibnamedelima G},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=592b6454e8a63382e6c3b7e544c579d1}{%
+           family={Eliav},
+           familyi={E\bibinitperiod},
+           given={Ephraim},
+           giveni={E\bibinitperiod}}}%
+        {{hash=db96c50127d2f280211600b3dbf502e9}{%
+           family={Fasshauer},
+           familyi={F\bibinitperiod},
+           given={Elke},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing LLC}%
+      }
+      \strng{namehash}{1a167cb709b78b9547c4fb500c752293}
+      \strng{fullhash}{dca2d5566da7156b794f071445a14d19}
+      \strng{bibnamehash}{1a167cb709b78b9547c4fb500c752293}
+      \strng{authorbibnamehash}{1a167cb709b78b9547c4fb500c752293}
+      \strng{authornamehash}{1a167cb709b78b9547c4fb500c752293}
+      \strng{authorfullhash}{dca2d5566da7156b794f071445a14d19}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{number}{20}
+      \field{title}{The DIRAC code for relativistic molecular calculations}
+      \field{volume}{152}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{204104}
+      \range{pages}{1}
     \endentry
   \enddatalist
 \endrefsection
