@@ -35,13 +35,13 @@ two reasons: (1) the bulk-like nature of the liquid imposes the use of periodic 
 (PBCs), which pose roadblocks when considering charge systems; (2) quantitative electronic structure
 methods, such as coupled cluster, are generally not available in PBCs. In this work, we tackle both
 challenges by employing subsystem DFT to split the extended system into a collection of finite
-subsystems embedded by extended, infinite subsystems. This is achieved by an impurity
+subsystems embedded by extended, infinite subsystem. This is achieved by an impurity
 model ~\cite{tolle2019charged} where high ab initio method as coupled cluster wavefunctions can be introduced to evaluate
 the water molecules’ energy functionals. 
 
 The liquid’s electronic structure is expressed in subsystem contributions by invoking nonadditive density 
 functionals whereby the total energy of the liquid is expressed as the sum of molecule-additive
-and nonadditive contributions ~\cite{martyna1999reciprocal}. The inter-molecular interaction is
+and nonadditive contributions ~\cite{krishtal2015subsystem}. The inter-molecular interaction is
 split into Coulumb interactions, and such nonadditive terms as the noninteracting
 kinetic energy and the noninteracting exchange-correlation ~\cite{krishtal2015subsystem}. 
 These contributions represent interactions related among others to exchange, van der Waals and
@@ -55,14 +55,20 @@ neutral and the polarized system (Called SCF method) ~\cite{bagus1965self,waskom
 
 \section{Introduction}
 
-The high-accuracy calculations of ionization potentials and electron affinities of condensed-phase molecular systems as liquid water has been
-challeging for the last years (Find literature about it).  
+The high-accuracy calculations of ionization potentials (IPs) and electron affinities (EAs) of condensed-phase molecular systems as liquid water has 
+represented a challege for the last years in both experimental and computational fields \cite{tolle2019charged,gaiduk2018electron,gaiduk2016photoelectron,seidel2016valence}. Thus, ionized states of the electrons take part in many crucial processes in electrochemistry, photochemistry as well as
+exotic states of matter as the solvated electron \cite{ambrosio2017electronic}. The most recent theoretical report of IP and EA values
+\cite{ziaei2018probing} shows that using quasi-particle self-consistent GW calculations and implicit vertex correction in many-body perturbation
+(MBPT) considerably affect the EA previous reported \cite{gaiduk2018electron} by about 1eV. Therefore, trough self-consistent GW approach with an
+implicit vertex correction based on the projector augmented wave (PAW) method, which is the most accurate pseudo-potential (PPs available),
+and combined with Bethe–Salpeter equation establish values of 10.2 and 1.1 eV, for IP and EA of liquid water, respectively.
 
-Ionization potentials (IPs) and electron affinities (EAs) of liquid water would be successfully determine if quatum-mechanical models for charged 
-species in PBC are able to face the complications related to the long-ranged nature of the Coulomb Kernel $ w(r,r^{'}) = \frac {1}{|r - r^{'}|} $ , 
-which decays to zero when two charges are far away. Indeed, it is precisely what previous research achieved using an impurity model with two
-remarkable qualities: 1) The charged periodic system is replaced by a non-periodic one which is still truly extended (ie., of infinite size) and
-2) The potentials of the neutral and the charged system are pegged to a common reference. 
+Following the trend and now including the use of periodic boundary conditions (PBC) another method was introduced \cite{tolle2019charged}
+to determine the ionization potentials (IPs) and electron affinities (EAs) of liquid water. Based on determining successfully a quatum-mechanical
+models for charged species in PBC which is able to face the complications related to the long-ranged nature of the Coulomb Kernel
+$ w(r,r^{'}) = \frac {1}{|r - r^{'}|}$, which decays to zero when two charges are far away. Indeed, it is precisely what previous research achieved
+using an impurity model with two remarkable qualities: 1) The charged periodic system is replaced by a non-periodic one which is still truly
+extended (ie., of infinite size) and 2) The potentials of the neutral and the charged system are pegged to a common reference. 
 
 Achieving the former requires an ad hoc mapping of the infinite system(periodic) onto finite number of finite subsystems
 (non-periodic subsystems) and an extended (infinite) subsystem, using a formally exact density embedding method, subsystem DFT. Meanwhile, achieving
