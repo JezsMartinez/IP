@@ -1,12 +1,12 @@
 \documentclass[12pt,a4paper]{article}
-\usepackage[a4paper, margin=1.5cm]{geometry}
+\usepackage[a4paper, margin=2cm]{geometry}
 \usepackage{graphicx}
 \graphicspath{{./images/}}
 \usepackage{subcaption}
 \newcommand{\tr}{\mathrm{tr}}
 \usepackage{hyperref}
 \usepackage{authblk}
-\usepackage[backend=biber,style=nature]{biblatex}
+\usepackage[backend=biber, style=chem-acs]{biblatex}
 
 \bibliography{article}
 \addbibresource{article.bib}
@@ -56,24 +56,31 @@ neutral and the polarized system (Called SCF method) ~\cite{bagus1965self,waskom
 \section{Introduction}
 
 The high-accuracy calculations of ionization potentials (IPs) and electron affinities (EAs) of condensed-phase molecular systems as liquid water has 
-represented a challege for the last years in both experimental and computational fields \cite{tolle2019charged,gaiduk2018electron,gaiduk2016photoelectron,seidel2016valence}. Thus, ionized states of the electrons take part in many crucial processes in electrochemistry, photochemistry as well as
-exotic states of matter as the solvated electron \cite{ambrosio2017electronic}. The most recent theoretical report of IP and EA values
-\cite{ziaei2018probing} shows that using quasi-particle self-consistent GW calculations and implicit vertex correction in many-body perturbation
-(MBPT) considerably affect the EA previous reported \cite{gaiduk2018electron} by about 1eV. Therefore, trough self-consistent GW approach with an
-implicit vertex correction based on the projector augmented wave (PAW) method, which is the most accurate pseudo-potential (PPs available),
-and combined with Bethe–Salpeter equation establish values of 10.2 and 1.1 eV, for IP and EA of liquid water, respectively.
+represented a challege for the last years in both experimental and computational fields
+\cite{tolle2019charged,gaiduk2018electron,gaiduk2016photoelectron,seidel2016valence}. Thus, ionized states of the electrons take part in many
+crucial processes in electrochemistry, photochemistry as well as peculiar states of matter as excess electrons solvated in liquid water
+\cite{ambrosio2017electronic}. The most recent theoretical report of IP and EA values \cite{ziaei2018probing} shows that using quasi-particle self-consistent GW calculations and implicit vertex correction in many-body perturbation (MBPT) remarkably affect the EA of liquid water previously reported
+\cite{gaiduk2018electron} by Gaiduk et al by about 1eV. Therefore, they through self-consistent GW approach with an implicit vertex correction based on the projector augmented wave (PAW) method, which is the most accurate pseudo-potential \cite{dal2014pseudopotentials} (PPs available), and combined with Bethe–Salpeter equation established values of 10.2 and 1.1 eV, for IP and EA of liquid water, respectively. \\
 
 Following the trend and now including the use of periodic boundary conditions (PBC) another method was introduced \cite{tolle2019charged}
 to determine the ionization potentials (IPs) and electron affinities (EAs) of liquid water. Based on determining successfully a quatum-mechanical
-models for charged species in PBC which is able to face the complications related to the long-ranged nature of the Coulomb Kernel
-$ w(r,r^{'}) = \frac {1}{|r - r^{'}|}$, which decays to zero when two charges are far away. Indeed, it is precisely what previous research achieved
-using an impurity model with two remarkable qualities: 1) The charged periodic system is replaced by a non-periodic one which is still truly
-extended (ie., of infinite size) and 2) The potentials of the neutral and the charged system are pegged to a common reference. 
+model for charged species in PBC which is able to face the complications related to the long-ranged nature of the Coulomb Kernel
+$ w(r,r^{'}) = \frac {1}{|r - r^{'}|}$, which decays to zero when two charges are far away in real space. Indeed, it was achieved using an impurity model with two remarkable qualities: 1) The charged periodic system is replaced by a non-periodic one which is still truly
+extended (ie., of infinite size) and 2) The potentials of the neutral and the charged system are pegged to a common reference. \\
 
-Achieving the former requires an ad hoc mapping of the infinite system(periodic) onto finite number of finite subsystems
-(non-periodic subsystems) and an extended (infinite) subsystem, using a formally exact density embedding method, subsystem DFT. Meanwhile, achieving
-the latter only requires finding a consistent choice for the $G = 0$ component of the Coulomb Kernel in a reciprocal space. The above is possible due
-to the total charged density $\rho (G)$ is zero, although the kernel singularity for $w(G)$ at $G = 0$.
+The former requires an ad hoc mapping of the infinite system (periodic) onto finite number of finite subsystems (non-periodic subsystems) and an
+extended (infinite) subsystem, using a formally exact density embedding method, subsystem DFT \cite{wesolowski2015frozen}. Meanwhile, achieving
+the latter only requires finding a consistent choice for the $G = 0$ component of the Coulomb Kernel in a reciprocal space. 
+The use of the reciprocal space is only chosen for avoiding the complication of dealing with convergent integrals \cite{martin2004electronic}
+In addition, in PBC the physical Coulomb kernel is only the one represented in a reciprocal space $w(G) = \frac {4\pi}{|G|^2}$ where
+$G \epsilon {\rm I\!R}^3$. Even though, when $G=0$ the Coulomb kernel becomes undefined the total charged density $\rho (G)$ is zero for $G = 0$
+, which is not problematic.\\
+
+Here we present an update of the current state-of-the-art of liquid water IPs and EAs base on an impurity model using an exact density
+embedding method, subsystem DFT which may allow us to contribute to the discussion generated by using ab initio electronic structure
+\cite{ambrosio2017electronic, gaiduk2018electron} by GW approximations. We begin with a brief theoretical framework description and follow on the
+description of the EAs andIPs of 256 bulk liquid water.
+
 
 \section{Theoretical Background}
 

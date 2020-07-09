@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.17)  8 JUL 2020 10:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.17)  9 JUL 2020 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,7 +299,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'nature.dbx' not found.
+Package biblatex Info: ... file 'chem-acs.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count307
@@ -409,11 +409,11 @@ File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip20
 \c@smartand=\count383
 )
-Package biblatex Info: Trying to load bibliography style 'nature'...
-Package biblatex Info: ... file 'nature.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'chem-acs'...
+Package biblatex Info: ... file 'chem-acs.bbx' found.
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-nature/nature.bbx
-File: nature.bbx 2018/10/18 v1.3c biblatex bibliography style
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-chem/chem-acs.bbx
+File: chem-acs.bbx 2019/12/03 v1.1y biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
@@ -432,11 +432,11 @@ File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count384
 \c@bbx:relatedtotal=\count385
 ))))
-Package biblatex Info: Trying to load citation style 'nature'...
-Package biblatex Info: ... file 'nature.cbx' found.
+Package biblatex Info: Trying to load citation style 'chem-acs'...
+Package biblatex Info: ... file 'chem-acs.cbx' found.
 
-(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-nature/nature.cbx
-File: nature.cbx 2018/10/18 v1.3c biblatex citation style
+(/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex-chem/chem-acs.cbx
+File: chem-acs.cbx 2019/12/03 v1.1y biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
@@ -498,15 +498,15 @@ LaTeX Font Info:    ... okay on input line 15.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
-* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=512.14963pt
-* \textheight=759.6886pt
-* \oddsidemargin=-29.59087pt
-* \evensidemargin=-29.59087pt
-* \topmargin=-66.59087pt
+* \textwidth=483.69687pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -611,49 +611,61 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (5.22418pt too wide) in paragraph at lines 58--65
-\OT1/cmr/m/n/12 The high-accuracy cal-cu-la-tions of ion-iza-tion po-ten-tials 
-(IPs) and elec-tron affini-ties (EAs) of condensed-
+Underfull \hbox (badness 10000) in paragraph at lines 58--64
+
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 69.
+(Font)              <12> on input line 68.
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--78
+
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.85 
+l.78 
       [1] [2]
-<./images/IP-mp2-hf.png, id=107, 282.30469pt x 202.50656pt>
+<./images/IP-mp2-hf.png, id=114, 282.30469pt x 202.50656pt>
 File: ./images/IP-mp2-hf.png Graphic file (type png)
 <use ./images/IP-mp2-hf.png>
-Package pdftex.def Info: ./images/IP-mp2-hf.png  used on input line 153.
-(pdftex.def)             Requested size: 204.85672pt x 146.95407pt.
-<./images/IP-mp2-dft.png, id=109, 289.08pt x 202.50656pt>
+Package pdftex.def Info: ./images/IP-mp2-hf.png  used on input line 160.
+(pdftex.def)             Requested size: 193.47578pt x 138.7872pt.
+<./images/IP-mp2-dft.png, id=116, 289.08pt x 202.50656pt>
 File: ./images/IP-mp2-dft.png Graphic file (type png)
 <use ./images/IP-mp2-dft.png>
-Package pdftex.def Info: ./images/IP-mp2-dft.png  used on input line 157.
-(pdftex.def)             Requested size: 204.85672pt x 143.50563pt.
- [3 <./images/IP-mp2-hf.png> <./images/IP-mp2-dft.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+Package pdftex.def Info: ./images/IP-mp2-dft.png  used on input line 164.
+(pdftex.def)             Requested size: 193.47578pt x 135.53345pt.
 
-(./draw.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3 <./images/IP-mp2-hf.png> <./images/IP-mp2-dft.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
+ [4] [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
+ (./draw.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
 Package rerunfilecheck Info: File `draw.out' has not changed.
 (rerunfilecheck)             Checksum: 94D5F6CA472935575994B1F4B004781E;775.
 Package logreq Info: Writing requests to 'draw.run.xml'.
 \openout1 = `draw.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 201.
  ) 
 Here is how much of TeX's memory you used:
- 14079 strings out of 480478
- 249905 string characters out of 5899580
- 897893 words of memory out of 5000000
- 29908 multiletter control sequences out of 15000+600000
+ 14094 strings out of 480478
+ 250392 string characters out of 5899580
+ 898761 words of memory out of 5000000
+ 29920 multiletter control sequences out of 15000+600000
  541142 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,7n,47p,909b,1293s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -665,18 +677,19 @@ usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
 r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
 local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
 cal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texl
-ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
-e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
-/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
-2020/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/20
-20/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on draw.pdf (5 pages, 206133 bytes).
+l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
+exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
+/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/20
+20/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/202
+0/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2020/
+texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on draw.pdf (6 pages, 217566 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
+ 205 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 

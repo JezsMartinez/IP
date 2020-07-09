@@ -193,8 +193,8 @@
       }
       \strng{namehash}{dfb4b1b2b521f6afe19180e9d7199232}
       \strng{fullhash}{8ab3f9437607b3cc88b6762dd315afa3}
-      \strng{bibnamehash}{dfb4b1b2b521f6afe19180e9d7199232}
-      \strng{authorbibnamehash}{dfb4b1b2b521f6afe19180e9d7199232}
+      \strng{bibnamehash}{8ab3f9437607b3cc88b6762dd315afa3}
+      \strng{authorbibnamehash}{8ab3f9437607b3cc88b6762dd315afa3}
       \strng{authornamehash}{dfb4b1b2b521f6afe19180e9d7199232}
       \strng{authorfullhash}{8ab3f9437607b3cc88b6762dd315afa3}
       \field{sortinit}{5}
@@ -294,8 +294,8 @@
       }
       \strng{namehash}{1d760e0dd4c531548ca27269473ed4c6}
       \strng{fullhash}{b0b44bb34530c030b02c373726a4aec9}
-      \strng{bibnamehash}{1d760e0dd4c531548ca27269473ed4c6}
-      \strng{authorbibnamehash}{1d760e0dd4c531548ca27269473ed4c6}
+      \strng{bibnamehash}{b0b44bb34530c030b02c373726a4aec9}
+      \strng{authorbibnamehash}{b0b44bb34530c030b02c373726a4aec9}
       \strng{authornamehash}{1d760e0dd4c531548ca27269473ed4c6}
       \strng{authorfullhash}{b0b44bb34530c030b02c373726a4aec9}
       \field{extraname}{2}
@@ -422,6 +422,102 @@
       \field{pages}{215502}
       \range{pages}{1}
     \endentry
+    \entry{dal2014pseudopotentials}{article}{}
+      \name{author}{1}{}{%
+        {{hash=11315f74f27da6ef552baef85c3270d1}{%
+           family={Dal\bibnamedelima Corso},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{11315f74f27da6ef552baef85c3270d1}
+      \strng{fullhash}{11315f74f27da6ef552baef85c3270d1}
+      \strng{bibnamehash}{11315f74f27da6ef552baef85c3270d1}
+      \strng{authorbibnamehash}{11315f74f27da6ef552baef85c3270d1}
+      \strng{authornamehash}{11315f74f27da6ef552baef85c3270d1}
+      \strng{authorfullhash}{11315f74f27da6ef552baef85c3270d1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Materials Science}
+      \field{title}{Pseudopotentials periodic table: From H to Pu}
+      \field{volume}{95}
+      \field{year}{2014}
+      \field{pages}{337\bibrangedash 350}
+      \range{pages}{14}
+    \endentry
+    \entry{wesolowski2015frozen}{article}{}
+      \name{author}{3}{}{%
+        {{hash=350276d9d2b3095c5934e5e731952cef}{%
+           family={Wesolowski},
+           familyi={W\bibinitperiod},
+           given={Tomasz\bibnamedelima A},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1ec2c0861f006dc3481ea97b400a8158}{%
+           family={Shedge},
+           familyi={S\bibinitperiod},
+           given={Sapana},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a258fbb632b49d776654e0fb5ca21fd5}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xiuwen},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{e5a0c3db5a0be40d51470302f99f5dcd}
+      \strng{fullhash}{cd72851427da5ac6c988d63f7b09ff15}
+      \strng{bibnamehash}{cd72851427da5ac6c988d63f7b09ff15}
+      \strng{authorbibnamehash}{cd72851427da5ac6c988d63f7b09ff15}
+      \strng{authornamehash}{e5a0c3db5a0be40d51470302f99f5dcd}
+      \strng{authorfullhash}{cd72851427da5ac6c988d63f7b09ff15}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical reviews}
+      \field{number}{12}
+      \field{title}{Frozen-density embedding strategy for multilevel simulations of electronic structure}
+      \field{volume}{115}
+      \field{year}{2015}
+      \field{pages}{5891\bibrangedash 5928}
+      \range{pages}{38}
+    \endentry
+    \entry{martin2004electronic}{book}{}
+      \name{author}{2}{}{%
+        {{hash=a7400824f190fa020763ff41d573646b}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5694f471f6217a2406e135fb18e6eec6}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Richard\bibnamedelima Milton},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge university press}%
+      }
+      \strng{namehash}{c4c03cff0dc810eac6e6e25f5bad83db}
+      \strng{fullhash}{c4c03cff0dc810eac6e6e25f5bad83db}
+      \strng{bibnamehash}{c4c03cff0dc810eac6e6e25f5bad83db}
+      \strng{authorbibnamehash}{c4c03cff0dc810eac6e6e25f5bad83db}
+      \strng{authornamehash}{c4c03cff0dc810eac6e6e25f5bad83db}
+      \strng{authorfullhash}{c4c03cff0dc810eac6e6e25f5bad83db}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electronic structure: basic theory and practical methods}
+      \field{year}{2004}
+    \endentry
     \entry{martyna1999reciprocal}{article}{}
       \name{author}{2}{}{%
         {{hash=3fb90bbe2266169b3ee467645ec481dd}{%
@@ -501,8 +597,8 @@
       }
       \strng{namehash}{c150b81f81d82e3770c181267bf3bb20}
       \strng{fullhash}{75c919596d30b519657b2a0ee95989e9}
-      \strng{bibnamehash}{c150b81f81d82e3770c181267bf3bb20}
-      \strng{authorbibnamehash}{c150b81f81d82e3770c181267bf3bb20}
+      \strng{bibnamehash}{75c919596d30b519657b2a0ee95989e9}
+      \strng{authorbibnamehash}{75c919596d30b519657b2a0ee95989e9}
       \strng{authornamehash}{c150b81f81d82e3770c181267bf3bb20}
       \strng{authorfullhash}{75c919596d30b519657b2a0ee95989e9}
       \field{sortinit}{1}
@@ -555,12 +651,12 @@
       }
       \strng{namehash}{a3edc2262fe5063dfde7dcebf3d54c11}
       \strng{fullhash}{d0aedb0ec1e9250149615d6198000352}
-      \strng{bibnamehash}{a3edc2262fe5063dfde7dcebf3d54c11}
-      \strng{authorbibnamehash}{a3edc2262fe5063dfde7dcebf3d54c11}
+      \strng{bibnamehash}{d0aedb0ec1e9250149615d6198000352}
+      \strng{authorbibnamehash}{d0aedb0ec1e9250149615d6198000352}
       \strng{authornamehash}{a3edc2262fe5063dfde7dcebf3d54c11}
       \strng{authorfullhash}{d0aedb0ec1e9250149615d6198000352}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Quantum Chemistry}
@@ -571,35 +667,6 @@
       \true{nocite}
       \field{pages}{e25401}
       \range{pages}{-1}
-    \endentry
-    \entry{dal2014pseudopotentials}{article}{}
-      \name{author}{1}{}{%
-        {{hash=11315f74f27da6ef552baef85c3270d1}{%
-           family={Dal\bibnamedelima Corso},
-           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{11315f74f27da6ef552baef85c3270d1}
-      \strng{fullhash}{11315f74f27da6ef552baef85c3270d1}
-      \strng{bibnamehash}{11315f74f27da6ef552baef85c3270d1}
-      \strng{authorbibnamehash}{11315f74f27da6ef552baef85c3270d1}
-      \strng{authornamehash}{11315f74f27da6ef552baef85c3270d1}
-      \strng{authorfullhash}{11315f74f27da6ef552baef85c3270d1}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Computational Materials Science}
-      \field{title}{Pseudopotentials periodic table: From H to Pu}
-      \field{volume}{95}
-      \field{year}{2014}
-      \true{nocite}
-      \field{pages}{337\bibrangedash 350}
-      \range{pages}{14}
     \endentry
     \entry{saue2020dirac}{article}{}
       \true{moreauthor}
@@ -661,8 +728,8 @@
       }
       \strng{namehash}{1a167cb709b78b9547c4fb500c752293}
       \strng{fullhash}{dca2d5566da7156b794f071445a14d19}
-      \strng{bibnamehash}{1a167cb709b78b9547c4fb500c752293}
-      \strng{authorbibnamehash}{1a167cb709b78b9547c4fb500c752293}
+      \strng{bibnamehash}{dca2d5566da7156b794f071445a14d19}
+      \strng{authorbibnamehash}{dca2d5566da7156b794f071445a14d19}
       \strng{authornamehash}{1a167cb709b78b9547c4fb500c752293}
       \strng{authorfullhash}{dca2d5566da7156b794f071445a14d19}
       \field{sortinit}{2}

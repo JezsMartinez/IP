@@ -91,7 +91,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>5</bcf:value>
+      <bcf:value>15</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -99,7 +99,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>5</bcf:value>
+      <bcf:value>15</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -414,7 +414,9 @@
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
     <bcf:option datatype="boolean">articletitle</bcf:option>
-    <bcf:option datatype="boolean">intitle</bcf:option>
+    <bcf:option datatype="boolean">chaptertitle</bcf:option>
+    <bcf:option datatype="boolean">pageranges</bcf:option>
+    <bcf:option datatype="boolean">biblabel</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
     <bcf:option datatype="integer">maxnames</bcf:option>
@@ -2198,13 +2200,18 @@
     <bcf:citekey order="7">ambrosio2017electronic</bcf:citekey>
     <bcf:citekey order="8">ziaei2018probing</bcf:citekey>
     <bcf:citekey order="9">gaiduk2018electron</bcf:citekey>
-    <bcf:citekey order="10">tolle2019charged</bcf:citekey>
-    <bcf:citekey order="11">martyna1999reciprocal</bcf:citekey>
-    <bcf:citekey order="12">krishtal2015subsystem</bcf:citekey>
-    <bcf:citekey order="13">martyna1999reciprocal</bcf:citekey>
-    <bcf:citekey order="14">te2001chemistry</bcf:citekey>
-    <bcf:citekey order="15">bagus1965self</bcf:citekey>
-    <bcf:citekey order="15">waskom2017mwaskom</bcf:citekey>
+    <bcf:citekey order="10">dal2014pseudopotentials</bcf:citekey>
+    <bcf:citekey order="11">tolle2019charged</bcf:citekey>
+    <bcf:citekey order="12">wesolowski2015frozen</bcf:citekey>
+    <bcf:citekey order="13">martin2004electronic</bcf:citekey>
+    <bcf:citekey order="14">ambrosio2017electronic</bcf:citekey>
+    <bcf:citekey order="14">gaiduk2018electron</bcf:citekey>
+    <bcf:citekey order="15">martyna1999reciprocal</bcf:citekey>
+    <bcf:citekey order="16">krishtal2015subsystem</bcf:citekey>
+    <bcf:citekey order="17">martyna1999reciprocal</bcf:citekey>
+    <bcf:citekey order="18">te2001chemistry</bcf:citekey>
+    <bcf:citekey order="19">bagus1965self</bcf:citekey>
+    <bcf:citekey order="19">waskom2017mwaskom</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
