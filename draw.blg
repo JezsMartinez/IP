@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
-[0] Config.pm:307> INFO - Logfile is 'draw.blg'
-[85] biber:322> INFO - === Thu Jul  9, 2020, 10:41:03
-[101] Biber.pm:415> INFO - Reading 'draw.bcf'
-[186] Biber.pm:940> INFO - Using all citekeys in bib section 0
-[202] Biber.pm:4256> INFO - Processing section 0
-[202] Utils.pm:75> INFO - Globbing data source 'article.bib'
-[202] Utils.pm:91> INFO - Globbed data source 'article.bib' to article.bib
-[213] Biber.pm:4455> INFO - Looking for bibtex format file 'article.bib' for section 0
-[215] bibtex.pm:1653> INFO - LaTeX decoding ...
-[242] bibtex.pm:1471> INFO - Found BibTeX data source 'article.bib'
-[422] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[422] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[422] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[422] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[435] bbl.pm:652> INFO - Writing 'draw.bbl' with encoding 'UTF-8'
-[449] bbl.pm:755> INFO - Output to draw.bbl
+[1] Config.pm:307> INFO - Logfile is 'draw.blg'
+[197] biber:322> INFO - === Mon Jul 13, 2020, 11:08:43
+[643] Biber.pm:415> INFO - Reading 'draw.bcf'
+[823] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[866] Biber.pm:4256> INFO - Processing section 0
+[866] Utils.pm:75> INFO - Globbing data source 'article.bib'
+[867] Utils.pm:91> INFO - Globbed data source 'article.bib' to article.bib
+[895] Biber.pm:4455> INFO - Looking for bibtex format file 'article.bib' for section 0
+[947] bibtex.pm:1653> INFO - LaTeX decoding ...
+[993] bibtex.pm:1471> INFO - Found BibTeX data source 'article.bib'
+[1267] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1267] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1267] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1268] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[1288] bbl.pm:652> INFO - Writing 'draw.bbl' with encoding 'UTF-8'
+[1308] bbl.pm:755> INFO - Output to draw.bbl
