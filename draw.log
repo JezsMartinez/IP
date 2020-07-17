@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.17)  13 JUL 2020 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.6.17)  17 JUL 2020 10:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -633,39 +633,42 @@ been already used, duplicate ignored
                    \relax 
 l.78 
       [1] [2] [3]
-<./images/IP-mp2-hf.png, id=124, 282.30469pt x 202.50656pt>
+<./images/IP-mp2-hf.png, id=143, 282.30469pt x 202.50656pt>
 File: ./images/IP-mp2-hf.png Graphic file (type png)
 <use ./images/IP-mp2-hf.png>
-Package pdftex.def Info: ./images/IP-mp2-hf.png  used on input line 193.
+Package pdftex.def Info: ./images/IP-mp2-hf.png  used on input line 209.
 (pdftex.def)             Requested size: 193.47578pt x 138.7872pt.
-<./images/IP-mp2-dft.png, id=126, 289.08pt x 202.50656pt>
+<./images/IP-mp2-dft.png, id=145, 289.08pt x 202.50656pt>
 File: ./images/IP-mp2-dft.png Graphic file (type png)
 <use ./images/IP-mp2-dft.png>
-Package pdftex.def Info: ./images/IP-mp2-dft.png  used on input line 197.
+Package pdftex.def Info: ./images/IP-mp2-dft.png  used on input line 213.
 (pdftex.def)             Requested size: 193.47578pt x 135.53345pt.
- [4 <./images/IP-mp2-hf.png> <./images/IP-mp2-dft.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
 
-[5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4 <./images/IP-mp2-hf.png> <./images/IP-mp2-dft.png>] [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
  (./draw.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 234.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
 Package rerunfilecheck Info: File `draw.out' has not changed.
 (rerunfilecheck)             Checksum: 94D5F6CA472935575994B1F4B004781E;775.
 Package logreq Info: Writing requests to 'draw.run.xml'.
 \openout1 = `draw.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 250.
  ) 
 Here is how much of TeX's memory you used:
- 14097 strings out of 480478
- 250428 string characters out of 5899580
- 898761 words of memory out of 5000000
- 29920 multiletter control sequences out of 15000+600000
+ 14151 strings out of 480478
+ 252697 string characters out of 5899580
+ 901955 words of memory out of 5000000
+ 29956 multiletter control sequences out of 15000+600000
  541142 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,7n,47p,909b,1293s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,7n,47p,909b,1295s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
@@ -684,10 +687,10 @@ e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
 0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020
 /texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2020/t
 exmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on draw.pdf (6 pages, 229661 bytes).
+Output written on draw.pdf (7 pages, 235434 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
+ 259 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 

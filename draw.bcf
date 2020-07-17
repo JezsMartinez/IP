@@ -2209,9 +2209,30 @@
     <bcf:citekey order="15">martyna1999reciprocal</bcf:citekey>
     <bcf:citekey order="16">krishtal2015subsystem</bcf:citekey>
     <bcf:citekey order="17">martyna1999reciprocal</bcf:citekey>
-    <bcf:citekey order="18">te2001chemistry</bcf:citekey>
-    <bcf:citekey order="19">bagus1965self</bcf:citekey>
-    <bcf:citekey order="19">waskom2017mwaskom</bcf:citekey>
+    <bcf:citekey order="18">martyna1999reciprocal</bcf:citekey>
+    <bcf:citekey order="19">genova2017eqe</bcf:citekey>
+    <bcf:citekey order="20">corso2014comput</bcf:citekey>
+    <bcf:citekey order="21">perdew1996phys</bcf:citekey>
+    <bcf:citekey order="22">laricchia2011generalized</bcf:citekey>
+    <bcf:citekey order="23">genova2016avoiding</bcf:citekey>
+    <bcf:citekey order="23">genova2017cooperation</bcf:citekey>
+    <bcf:citekey order="24">te2001chemistry</bcf:citekey>
+    <bcf:citekey order="25">genova2016avoiding</bcf:citekey>
+    <bcf:citekey order="25">kevorkyants2013calculating</bcf:citekey>
+    <bcf:citekey order="25">pavanello2011modelling</bcf:citekey>
+    <bcf:citekey order="25">ramos2016critical</bcf:citekey>
+    <bcf:citekey order="25">solovyeva2012spin</bcf:citekey>
+    <bcf:citekey order="26">perdew1996phys</bcf:citekey>
+    <bcf:citekey order="27">hertwig1997parameterization</bcf:citekey>
+    <bcf:citekey order="28">yu2013intermolecular</bcf:citekey>
+    <bcf:citekey order="29">yu2014double</bcf:citekey>
+    <bcf:citekey order="30">kozuch2010dsd</bcf:citekey>
+    <bcf:citekey order="31">schipper2000molecular</bcf:citekey>
+    <bcf:citekey order="31">gritsenko1999approximation</bcf:citekey>
+    <bcf:citekey order="32">head1988mp2</bcf:citekey>
+    <bcf:citekey order="33">marshall1961unrestricted</bcf:citekey>
+    <bcf:citekey order="34">bagus1965self</bcf:citekey>
+    <bcf:citekey order="34">waskom2017mwaskom</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
