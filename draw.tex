@@ -48,8 +48,9 @@ These contributions represent interactions related among others to exchange, van
 Pauli repulsion and are all bifunctional of the subsystem densities ~\cite{tolle2019charged}. 
 
 The final IP/EA values reproduce the experimental values to within 0.5 eV and are determined averaging 
-over 256 water molecules (or subsystems) considered in the simulation cell, calculated by the energy difference of the
-neutral and the polarized system (Called SCF method) ~\cite{bagus1965self,waskom2017mwaskom}. 
+over two different systems of 64 and 256 water molecules (or subsystems) considered in the corresponding simulation cell,
+calculated by the energy difference of the neutral and the polarized system (Called SCF method) 
+~\cite{bagus1965self,waskom2017mwaskom}. 
 \end{abstract}
 
 
@@ -79,7 +80,7 @@ $G \epsilon {\rm I\!R}^3$. Even though, when $G=0$ the Coulomb kernel becomes un
 Here we present an update of the current state-of-the-art of liquid water IPs and EAs base on an impurity model using an exact density
 embedding method, subsystem DFT. This may allow us to contribute to the discussion generated about the most accurate value for the EAs of bulk water
 by using ab initio electronic structure \cite{ambrosio2017electronic, gaiduk2018electron} by GW approximations. We begin with a brief theoretical
-framework description and follow on the description of the EAs and IPs of 256 bulk liquid water.
+framework description and follow on the description of the EAs and IPs of 64 and 256 bulk liquid water systems.
 
 
 \section{Theoretical Background}
@@ -141,7 +142,7 @@ imposing the $G=0$ value of the periodic Coulomb kernel to match the same limit 
 finite system to be the reference system. Thus, we referenced the periodic potential of the extended subsystem ($\eta -\eta_{I}$) to the corresponding
 $G=0$ component in the the ionized and neutral systems. 
 
-\subsection{Embedding Scheme for the Neutral System}
+\subsection{Embedding Scheme for the Nonionized System}
 
 For the neutral system, the Coulomb interaction energy can be expressed as a potential that maps the interaction of an accurately infinitely extended
 environment onto and isolated subsystem $I$,
@@ -187,20 +188,83 @@ employing ultrasoft pseudopotentials from PSL pseudopotential library \cite{cors
 expansions of the molecular orbitals and the charge density, respectively.  
 
 The ground state calculation of each subsystem with the corresponding neutral and polarized embedding potential was determined through ADF
-\cite{te2001chemistry} software. We selected each water molecule to be one subsystem (i.e, 256 subsystem in total) according to the most beneficial
+\cite{te2001chemistry} software. We selected each water molecule to be one subsystem (i.e, 64 and 256 subsystem in total) according to the most beneficial
 error cancelation, previously determined
 \cite{genova2016avoiding, kevorkyants2013calculating, pavanello2011modelling, ramos2016critical, solovyeva2012spin},
 between the nonadditive kinetic energy and the nonadditive exchange-correlation functionals employed.
 
+To make use of the embedding potential (EP) for both neutral and charged systems (obtained by eQE) in the ADF ground-state
+calculations, the atom centered grid function of eQE was used. The above is based on an interpolating function which 
+splines the EP onto a custom grid, which provided the correct real-space representation due to the uses of atom centered
+basis functions. The general integral has the form,
+
+\begin{equation}
+	v_{emb}^{\mu v} = \langle \chi_{\mu}|v_{emb}|\chi_{v}\rangle 
+\end{equation}
+
+This will generate a Gaussian cube file containing the splined embedding potential\cite{genova2017eqe}.
+
 A comparison among Density Functional Theory (DFT), using GGA (PBE) \cite{perdew1996phys}, Hybrid (B3LYP) \cite{hertwig1997parameterization},
 Double-Hybrid (B2KPLYP \cite{yu2013intermolecular}, B2NCPLYP \cite{yu2014double}, and REVDSDBLYP \cite{kozuch2010dsd}),
 and Statistical average of orbital potentials(SOAP) model\cite{schipper2000molecular, gritsenko1999approximation}, 
-Møller–Plesset perturbation theory (MP2) \cite{head1988mp2} and HF \cite{marshall1961unrestricted} level of theory was made, with the basis QZ4P.
-The final IP/EA values are calculated using an average for each of the 256 water molecules or subsystems considered in the simulation cell,
+Møller–Plesset perturbation theory (MP2) \cite{head1988mp2} and Hartree–Fock (HF) \cite{marshall1961unrestricted} level of theory was made, with the basis QZ4P.
+The final IP/EA values are calculated using an average for each of the 64 and 256 water molecules or subsystems considered in the simulation cell,
 calculated by the energy difference of the neutral and the polarized system (Called $\Delta$SCF method) \cite{bagus1965self,waskom2017mwaskom}.
 
 \section{Results}
 \subsection{IPs of Bulk water}
+
+Using a random method a snapshot from an ab initio molecular dynamics (MD) based on subsystem DFT was selected base on a
+previous study \cite{genova2016avoiding}. We used that single snapshot which consists of a total of 64 subsystems
+(ie. 64 water molecules in a cubic box (a = 12.43 $\AA$) to compute the vertical IPs reproducing the density of the liquid.
+The IPs and EAs were calculated in two ways. 
+
+The IPs and EAs were calculated in two ways: Isolated, each subsystem was computed independently and treated using MT
+assume isolated method \cite{martyna1999reciprocal}, all the molecular geometries were taken from the MD. Embedded: 
+we employed the impurity model above described by equation $(7)$ and calculated the interaction energy following 
+equation $(5)$. The coulomb kernel of the $\eta -\eta_{I}$ extended neutral system, was taken as a reference because of
+their similarity between the neutral and ionized states, Figure 1.
+
+\begin{figure}[!h]
+        \captionsetup[subfigure]{labelformat=empty}
+        \centering
+        \begin{subfigure}{0.4\linewidth}
+                \includegraphics[width=\linewidth]{Neutral_ChargedEP_1}
+                \caption{Subsystem 1}
+        \end{subfigure}
+        \begin{subfigure}{0.4\linewidth}
+                \includegraphics[width=\linewidth]{Neutral_ChargedEP_2}
+                \caption{Subsystem 2}
+        \end{subfigure}
+        \begin{subfigure}{0.4\linewidth}
+                \includegraphics[width=\linewidth]{Neutral_ChargedEP_3}
+                \caption{Subsystem 3}
+        \end{subfigure}
+        \begin{subfigure}{0.4\linewidth}
+                \includegraphics[width=\linewidth]{Neutral_ChargedEP_4}
+                \caption{Subsystem 4}
+        \end{subfigure}
+        \caption{Differential analysis of the Embedding potential (EP) of the neutral state minus the charge state, for the four first subsystems. Calculated using PBCpy 0.2.7 Python 3 module.}
+\end{figure}
+
+We divided the succeeding analysis into three crucial parts. A complete comparison between previous eQE results for the
+IPs of bulk water with ADF calculations. Followed by the description among different previously mentioned DFT functionals.
+Closing with the comparison between HF with MP2 and MP2 with DFT functional methods
+
+The previous result for IPs of the 64 bulk water system was obtained through eQE software using PBE functional. Following
+the same theoretical framework (PBE) once we obtained the cube file with the splined embedding potential, a Frozen Density 
+Embedding (FDE) calculation was carried out with ADF. As shown in figure 2,
+
+\begin{figure}[!h]
+        \centering
+        \includegraphics[width=\linewidth]{eQE-ADF}
+        \caption{Distribution of IPs of bulk liquid water. The area subtenended by the lines sums up to 64 (ie, the number of subsystems). Left: Isolated water molecules . Right: Embedded water molecules in the bulk. }
+\end{figure}
+
+Ideas to discuss here : IP average, broader of the bulk IPs, Openshell for the eQE results vs their CS.
+
+
+
 
 \begin{figure}[!h]
 	\captionsetup[subfigure]{labelformat=empty}
