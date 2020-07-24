@@ -247,37 +247,68 @@ their similarity between the neutral and ionized states, Figure 1.
 \end{figure}
 
 We divided the succeeding analysis into three crucial parts. A complete comparison between previous eQE results for the
-IPs of bulk water with ADF calculations. Followed by the description among different previously mentioned DFT functionals.
-Closing with the comparison between HF with MP2 and MP2 with DFT functional methods
+IPs of bulk water with ADF calculation using the same functional PBE. Followed by the description among different previously 
+mentioned DFT functionals. Closing with the comparison between HF with MP2 and MP2 with DFT functional methods
 
-The previous result for IPs of the 64 bulk water system was obtained through eQE software using PBE functional. Following
+The previous result for IPs of the 64 bulk water system was obtained through eQE software using PBE functional \cite{tolle2019charged}. Following
 the same theoretical framework (PBE) once we obtained the cube file with the splined embedding potential, a Frozen Density 
-Embedding (FDE) calculation was carried out with ADF. As shown in figure 2,
+Embedding (FDE) calculation was carried out with ADF. 
+
+As shown in figure 2, the results for IPs of isolated water, (computed considering every single
+molecule of the liquid to be isolated) evidence that both histograms are peaked around the average
+and only spreads by about 0.1 eV. If we compare both pairs of histograms the isolated and bulk ones,
+the latter are much broader by about 2 eV. The above agree completely with the fact that the first
+absorption band in the liquid, for the optical spectrum of water \cite{blase2016erratum,genova2017cooperation,hermann2008resolving,hahn2005optical},
+peaks at higher energies in comparison to the gas phase \cite{tolle2019charged}. Averages IPs values for the bulk water are lower by ~ 2.2 - 3.3 eV
+(eQE and ADF, respectively) in comparison with the IPs of the isolated system, it means the gas-phase.  
+In contrast with the previously reported by Th{\"o}le et al.\cite{tolle2019charged}, a difference of ~3.2 eV between 
+gas-phase and liquid water, we can explain this because of the uses of open-shell
+for the ground-state calculations. Our results for the gas-phase are in complete agreement 
+with experimental previously reported \cite{nist2015nist}.  
+
 
 \begin{figure}[!h]
         \centering
         \includegraphics[width=\linewidth]{eQE-ADF}
-        \caption{Distribution of IPs of bulk liquid water. The area subtenended by the lines sums up to 64 (ie, the number of subsystems). Left: Embedded water molecules in the bulk. Right:Isolated water molecules. }
+	\caption{Comparison of the distribution of IPs of bulk liquid water between ADF\cite{te2001chemistry} and eQE \cite{genova2017eqe}. The area subtended by the lines sums up to 64 (ie, the number of subsystems). Left: Embedded water molecules in the bulk. Right: Isolated water molecules. Dot lines represent the average IP. The lines fitting the underlying distributions are obtained from a kernel density estimation using Seaborn's Gaussian envelopes\cite{waskom2017c}}
 \end{figure}
 
-Ideas to discuss here : IP average, broader of the bulk IPs, Openshell for the eQE results vs their CS.
+Furthermore, there is an underestimation of the computed IP for bulk water through ADF in comparison with eQE of 0.92 eV. We can argue the above
+recalling that eQE uses pseudopotential approximation that set the ion core electrons to be 'frozen' assuming they are not by definitionperturbed
+by physical rearrangements of the system \cite{srivastava1987theory}, while ADF treats core orbitals from high-level all-electron atomic calculations
+to be frozen (but intact) for when calculating the atomic wavefunctions, consider the complete system (i.e. all the electrons)\cite{te2001chemistry}.
+
+The IPs average between PBE and B3LYP functionals of the bulk liquid water present a difference of ~ 0.1 eV, Figure 3. The first as a generalized
+gradient approximation (GGA) functional for the exchange-correlation (XC) which description of the density $\rho$ depends not only 
+at a certain point, but also the gradient of $\rho$  at the point, could be calling 'non-local'\cite{perdew1996phys}. While the latter belongs
+to the hybrid approximation for the exchange-hybrid correlation functionals which defines the exchange-correlation as the inclusion of some
+Hartree-Fock exchange (HF) mixed with GGA exchange and correlation, plus some empirical parameters, making it certainly non-local
+\cite{hertwig1997parameterization}. This leads to conclude that the non-locality framework plays a crucial role when an embedding potential is used. 
+If we compare B3LYP and SAOP (Statistical average of orbital potentials) model, the latter an asymptotical correction of the XC designed to model
+the KS potential with its Coulombic asymptotics for the occupied orbitals\cite{chong2002interpretation, van2014physical}, the difference is 0.075
+eV, however, in comparison with the experimental values both underestimate the IPs by ~0.4 eV. If we compare now the above XC functionals with
+the second-order M$\o{}$ller-Plasset (MP2) which is an effective Hartree-Fock ground state energy correction for the electron correlation effects, 
+\cite{del2012second} we can argue that the difference of ~ 0.4 eV among MP2 and DFT method used here is due to the not exact XC treatment of
+the latters.
+
+
+\begin{figure}[!h]
+        \centering
+        \includegraphics[width=\linewidth]{MP2-DFT}
+	\caption{Distribution of IPs of bulk liquid water using MP2 and DFT methods through ADF \cite{te2001chemistry}. The area subtended by the lines sums up to 64 (ie, the number of subsystems). Left: Embedded water molecules in the bulk. Right: Isolated water molecules. Dot lines represent the average IP. The lines fitting the underlying distributions are obtained from a kernel density estimation using Seaborn's Gaussian envelopes\cite{waskom2017c}}
+\end{figure}
 
 
 
 
 \begin{figure}[!h]
-	\captionsetup[subfigure]{labelformat=empty}
-	\centering
-	\begin{subfigure}{0.4\linewidth}
-		\includegraphics[width=\linewidth]{IP-mp2-hf}
-		\caption{MP2 vs HF}
-	\end{subfigure}
-	\begin{subfigure}{0.4\linewidth}
-		\includegraphics[width=\linewidth]{IP-mp2-dft}
-		\caption{MP2 vs DFT}
-	\end{subfigure}
-	\caption{Distribution of IPs of bulk liquid water. The area subtenended by the lines sums up to 64(ie, the number of subsystems). Left: Comparison between MP2 and HF. Right: Comparison between MP2 and DFT}
+        \centering
+        \includegraphics[width=\linewidth]{MP2-HF}
+        \caption{Distribution of IPs of bulk liquid water using MP2 and HF methods through ADF \cite{te2001chemistry}. The area subtended by the lines sums up to 64 (ie, the number of subsystems). Left: Embedded water molecules in the bulk. Right: Isolated water molecules. Dot lines represent the average IP. The lines fitting the underlying distributions are obtained from a kernel density estimation using Seaborn's Gaussian envelopes\cite{waskom2017c}}
 \end{figure}
+
+
+
 
 \begin{table}[!h]
  \begin{center}
@@ -300,6 +331,13 @@ Ideas to discuss here : IP average, broader of the bulk IPs, Openshell for the e
    \end{tabular}
  \end{center}
 \end{table}
+
+The computed average IP of liquid water is summarized in Table 1 where also are displayed the results
+from Gas-phase and previously reported data through several level of theory. 
+
+
+Comparison among Liquide GW A, GW B, GW-PAW and our results. 
+
 
 \section{Conclusions}
 
