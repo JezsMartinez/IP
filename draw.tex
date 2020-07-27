@@ -1,6 +1,7 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[a4paper, margin=2cm]{geometry}
 \usepackage{graphicx}
+\usepackage[table]{xcolor}
 \graphicspath{{./images/}}
 \usepackage{subcaption}
 \newcommand{\tr}{\mathrm{tr}}
@@ -246,26 +247,24 @@ their similarity between the neutral and ionized states, Figure 1.
         \caption{Differential analysis of the Embedding potential (EP) of the neutral state minus the charge state, for the four first subsystems. Calculated using PBCpy 0.2.7 Python 3 module.}
 \end{figure}
 
-We divided the succeeding analysis into three crucial parts. A complete comparison between previous eQE results for the
-IPs of bulk water with ADF calculation using the same functional PBE. Followed by the description among different previously 
-mentioned DFT functionals. Closing with the comparison between HF with MP2 and MP2 with DFT functional methods
+We divided the succeeding analysis into two crucial parts. A complete comparison between previous eQE results \cite{tolle2019charged} for the
+IPs of bulk water with ADF calculation using the same PBE functional. Followed by the description of both IP and EA results among the different 
+DFT functionals, and their corresponding comparison with MP2. In addition, a short outline between HF and MP2 results.
 
 The previous result for IPs of the 64 bulk water system was obtained through eQE software using PBE functional \cite{tolle2019charged}. Following
-the same theoretical framework (PBE) once we obtained the cube file with the splined embedding potential, a Frozen Density 
-Embedding (FDE) calculation was carried out with ADF. 
+the same theoretical framework (PBE) once we obtained the cube file for the splined embedding potentials, a Frozen Density 
+Embedding (FDE) calculation was carried out with ADF for each subsystem. 
 
-As shown in figure 2, the results for IPs of isolated water, (computed considering every single
-molecule of the liquid to be isolated) evidence that both histograms are peaked around the average
-and only spreads by about 0.1 eV. If we compare both pairs of histograms the isolated and bulk ones,
-the latter are much broader by about 2 eV. The above agree completely with the fact that the first
+As shown in Figure 2, the results for IPs of isolated water, (computed considering every single
+molecule of the liquid to be isolated) evidenced that both histograms are peaked around the average
+and only spreads by about 0.1 eV. If we compare isolated and bulk IPs histograms,
+bulk IPs are much broader by about 2 eV. The above agree completely with the fact that the first
 absorption band in the liquid, for the optical spectrum of water \cite{blase2016erratum,genova2017cooperation,hermann2008resolving,hahn2005optical},
-peaks at higher energies in comparison to the gas phase \cite{tolle2019charged}. Averages IPs values for the bulk water are lower by ~ 2.2 - 3.3 eV
-(eQE and ADF, respectively) in comparison with the IPs of the isolated system, it means the gas-phase.  
-In contrast with the previously reported by Th{\"o}le et al.\cite{tolle2019charged}, a difference of ~3.2 eV between 
-gas-phase and liquid water, we can explain this because of the uses of open-shell
-for the ground-state calculations. Our results for the gas-phase are in complete agreement 
-with experimental previously reported \cite{nist2015nist}.  
-
+peaks at higher energies in comparison to the gas-phase \cite{tolle2019charged}. Averages IPs for the bulk water are lower by ~2.2 and 3.3 eV
+(calculated by eQE and ADF, respectively) than the IPs of the isolated system, which are in complete agreement
+with experimental previously reported \cite{nist2015nist} gas-phase IPs. 
+In contrast to reported gas-phase IP values by Th{\"o}le et al.\cite{tolle2019charged} using eQE, we obtained a lower value, about
+1.0 eV, explained because of the usage of open-shell of each ground-state calculation.
 
 \begin{figure}[!ht]
         \centering
@@ -274,23 +273,24 @@ with experimental previously reported \cite{nist2015nist}.
 \end{figure}
 
 Furthermore, there is an underestimation of the computed IP for bulk water through ADF in comparison with eQE of 0.92 eV. We can argue the above
-recalling that eQE uses pseudopotential approximation that set the ion core electrons to be 'frozen' assuming they are not by definitionperturbed
+recalling that eQE uses pseudopotential approximation that set the ion core electrons to be 'frozen' assuming they are not by definition perturbed
 by physical rearrangements of the system \cite{srivastava1987theory}, while ADF treats core orbitals from high-level all-electron atomic calculations
-to be frozen (but intact) for when calculating the atomic wavefunctions, consider the complete system (i.e. all the electrons)\cite{te2001chemistry}.
+to be frozen (but intact), calculating the atomic wavefunctions considering the complete system (i.e. all the electrons)\cite{te2001chemistry}.
 
-The IPs average between PBE and B3LYP functionals of the bulk liquid water present a difference of ~ 0.1 eV, Figure 3. The first as a generalized
-gradient approximation (GGA) functional for the exchange-correlation (XC) which description of the density $\rho$ depends not only 
-at a certain point, but also the gradient of $\rho$  at the point, could be calling 'non-local'\cite{perdew1996phys}. While the latter belongs
-to the hybrid approximation for the exchange-hybrid correlation functionals which defines the exchange-correlation as the inclusion of some
-Hartree-Fock exchange (HF) mixed with GGA exchange and correlation, plus some empirical parameters, making it certainly non-local
-\cite{hertwig1997parameterization}. This leads to conclude that the non-locality framework plays a crucial role when an embedding potential is used. 
-If we compare B3LYP and SAOP (Statistical average of orbital potentials) model, the latter an asymptotical correction of the XC designed to model
-the KS potential with its Coulombic asymptotics for the occupied orbitals\cite{chong2002interpretation, van2014physical}, the difference is 0.075
-eV, however, in comparison with the experimental values both underestimate the IPs by ~0.4 eV. If we compare now the above XC functionals with
-the second-order M$\o{}$ller-Plasset (MP2) which is an effective Hartree-Fock ground state energy correction for the electron correlation effects, 
-\cite{del2012second} we can argue that the difference of ~ 0.4 eV among MP2 and DFT method used here is due to the not exact XC treatment of
-the last ones.
+The IPs average between PBE and B3LYP functionals of the bulk liquid water present a difference of ~0.1 eV, Figure 3 and Table 1. The first as a
+generalized gradient approximation (GGA) functional for the exchange-correlation (XC) which description of the density $\rho$ depends not only 
+at a certain point, but also the gradient of $\rho$ at the point, could be calling 'non-local'\cite{perdew1996phys}. While the latter belongs
+to the hybrid approximation which defines the exchange-correlation as the inclusion of some Hartree-Fock exchange (HF) mixed with GGA
+exchange and correlation, plus some empirical parameters, making it certainly non-local \cite{hertwig1997parameterization}. 
+This leads to conclude that the non-locality framework plays a crucial role when an embedding potential is used. 
 
+SAOP (Statistical average of orbital potentials) model is an asymptotical correction of the XC designed to model
+the Kohn-Sham (KS) potential with its Coulombic asymptotics for the occupied orbitals\cite{chong2002interpretation, van2014physical},
+If we compare B3LYP with the latter in the calculation of IPs liquid water there is a difference of 0.075 eV, however, in comparison with the experimental values both underestimate the IPs by ~0.4 eV. 
+
+Analyzing this first section, the above XC functionals, with the second-order M$\o{}$ller-Plasset (MP2), which is an effective Hartree-Fock
+ground state energy correction for the electron correlation effects \cite{del2012second}, we can argue that the difference of ~0.4 eV displayed in
+Figure 3 and Table 1, among MP2 and DFT methods used here is due to the not exact XC treatment of DFT calculations.
 
 \begin{figure}[!ht]
         \centering
@@ -298,8 +298,12 @@ the last ones.
 	\caption{Distribution of IPs of bulk liquid water using MP2 and DFT methods through ADF \cite{te2001chemistry}. The area subtended by the lines sums up to 64 (ie, the number of subsystems). Left: Embedded water molecules in the bulk. Right: Isolated water molecules. Dot lines represent the average IP. The lines fitting the underlying distributions are obtained from a kernel density estimation using Seaborn's Gaussian envelopes\cite{waskom2017c}}
 \end{figure}
 
-
-
+Even though MP2 is one of the oldest and the simplest wave function-based approaches to electron correlation energy it is still an eminent method 
+of quantum chemistry in which its energy contribution consists of double excitations \cite{fink2016does}. Above provides a systematic way to
+improve the description of the dynamic correlation energy, and in comparison with HF\cite{marshall1961unrestricted} wich entirely neglects these 
+effects let us figure out that the dynamic correlation plays an important role in the establishment of IPs values. Particularly, in Figure 4 and
+Table 1, we can observed that HF underestimates the IPs with a difference of ~2.2 eV between HF and MP2, which remarks again the importance of
+include dynamic correlation in the liquid IP estimation. 
 
 \begin{figure}[!ht]
         \centering
@@ -307,39 +311,39 @@ the last ones.
         \caption{Distribution of IPs of bulk liquid water using MP2 and HF methods through ADF \cite{te2001chemistry}. The area subtended by the lines sums up to 64 (ie, the number of subsystems). Left: Embedded water molecules in the bulk. Right: Isolated water molecules. Dot lines represent the average IP. The lines fitting the underlying distributions are obtained from a kernel density estimation using Seaborn's Gaussian envelopes\cite{waskom2017c}}
 \end{figure}
 
-
-
-
 \begin{table}[!ht]
  \begin{center}
-  \caption{average IPs}
+  \setlength{\tabcolsep}{18pt}
+  \caption{The average ionization potential in eV of liquid and gas-phase water in comparison to recent literature for both experimental and theoretical results. GW A, carried out with classical nuclei \cite{gaiduk2018electron}.GW B, uses quantum nucleia via a path integral dynamics \cite{gaiduk2018electron}. GW-PAW, uses implicit vertex correction based on projector augmented wave method\cite{ziaei2018probing}}
+  \rowcolors{3}{gray!25}{white}
   \label{tab:table1}
-  \begin{tabular}{ |c|c| }
-	\hline\hline
-	&IP average (eV)\\
-	\hline
-	MP2&9.9941\\
-	\hline
-	HF& 7.8250\\
-	\hline
-	PBE&9.6089\\
-        \hline
-        B3LYP&9.5147\\
-        \hline
-        SAOP&9.5897\\
-	\hline
-   \end{tabular}
+  \begin{tabular}{ ccc }
+  \hline
+   Method &Gas-Phase& Liquid\\
+  \hline
+   MP2&13.18&9.99\\
+   HF&10.98& 7.83\\
+   PBE&12.80&9.61\\
+   B3LYP&12.71&9.51\\
+   SAOP&12.78&9.59\\
+   GW A \cite{gaiduk2018electron} & &10.55\\
+   GW B\cite{gaiduk2018electron} & & 10.25\\
+   GW-PAW\cite{ziaei2018probing} & & 10.2 \\
+   exp A \cite{winter2004full} & & 9.9 \\
+   exp B \cite{delahay1981chem} & & 10.06 \\
+   exp \cite{nist2015nist} &12.62 & \\
+  \hline
+  \end{tabular}
  \end{center}
 \end{table}
 
-The computed average IP of liquid water is summarized in Table 1 where also are displayed the results
-from Gas-phase and previously reported data through several level of theory. 
-
-
-Comparison among Liquide GW A, GW B, GW-PAW and our results. 
-
-
 \section{Conclusions}
+
+Taking advantage of the density embedding depiction of the electronic structure of a system under periodic boundary conditions, we were able to 
+compute through an impurity model that incorporates charged and neutral finite subsystems within an extended(infinity) surrounding subsystem, 
+the IPs of bulk liquid water. So far, the best average value is 9.99 eV using the MP2 level of theory which is in complete agreement with liquid
+experimental reported values (9.9-10.06 eV) and GW recent simulations (10.2-10.55eV). Future applications of the method will be aimed at the
+implementation of the embedding potential into the calculation of ionization potential and electron affinities a higher level of theory. 
 
 \nocite{*}
 
