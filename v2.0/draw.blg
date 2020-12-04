@@ -1,19 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
-[1] Config.pm:307> INFO - Logfile is 'draw.blg'
-[73] biber:322> INFO - === Fri Dec  4, 2020, 13:49:40
-[88] Biber.pm:415> INFO - Reading 'draw.bcf'
-[172] Biber.pm:940> INFO - Using all citekeys in bib section 0
-[186] Biber.pm:4256> INFO - Processing section 0
-[186] Utils.pm:75> INFO - Globbing data source 'article.bib'
-[187] Utils.pm:91> INFO - Globbed data source 'article.bib' to article.bib
-[197] Biber.pm:4455> INFO - Looking for bibtex format file 'article.bib' for section 0
-[200] bibtex.pm:1653> INFO - LaTeX decoding ...
-[273] bibtex.pm:1471> INFO - Found BibTeX data source 'article.bib'
-[277] Utils.pm:304> WARN - Duplicate entry key: 'winter2004full' in file 'article.bib', skipping ...
-[678] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[679] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[679] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[679] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[712] bbl.pm:652> INFO - Writing 'draw.bbl' with encoding 'UTF-8'
-[746] bbl.pm:755> INFO - Output to draw.bbl
-[746] Biber.pm:128> INFO - WARNINGS: 1
+[0] Config.pm:307> INFO - Logfile is 'draw.blg'
+[79] biber:322> INFO - === Fri Dec  4, 2020, 14:07:44
+[93] Biber.pm:415> INFO - Reading 'draw.bcf'
+[177] Biber.pm:940> INFO - Using all citekeys in bib section 0
+[191] Biber.pm:4256> INFO - Processing section 0
+[192] Utils.pm:75> INFO - Globbing data source 'article.bib'
+[192] Utils.pm:91> INFO - Globbed data source 'article.bib' to article.bib
+[203] Biber.pm:4455> INFO - Looking for bibtex format file 'article.bib' for section 0
+[206] bibtex.pm:1653> INFO - LaTeX decoding ...
+[276] bibtex.pm:1471> INFO - Found BibTeX data source 'article.bib'
+[279] Utils.pm:304> WARN - Duplicate entry key: 'winter2004full' in file 'article.bib', skipping ...
+[675] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[675] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[675] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[675] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[708] bbl.pm:652> INFO - Writing 'draw.bbl' with encoding 'UTF-8'
+[741] bbl.pm:755> INFO - Output to draw.bbl
+[742] Biber.pm:128> INFO - WARNINGS: 1

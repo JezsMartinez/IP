@@ -225,7 +225,6 @@ for both the representative snapshot and the 25 first snapshots from Gaiduk et a
 and the polarized system (Called $\Delta$SCF method) \cite{bagus1965self,waskom2017mwaskom}.
 
 \section{Results}
-\subsection{IPs of Bulk water}
 
 Using a random method a representative snapshot from an ab initio molecular dynamics (MD) based on subsystem DFT was selected base on a
 previous study \cite{genova2016avoiding}. We used that single snapshot which consists of a total of 64 subsystems
@@ -392,8 +391,16 @@ was made. This new term added leads the ionization potential increases of ~0.65 
 the previously self-consistent GW approach, through PBE functional (Figure 7) and a overstimaion of ~0.4 eV using PBE. \\
 
 \begin{figure}[!ht]
+        \captionsetup[subfigure]{labelformat=empty}
         \centering
-        \includegraphics[width=\linewidth]{69-mp2-pbe-C}
+        \begin{subfigure}{0.4\linewidth}
+		\includegraphics[width=\linewidth]{Corrected}
+		\caption{Adding $E_{int,nuc}^{0/+}$ }
+        \end{subfigure}
+        \begin{subfigure}{0.4\linewidth}
+                \includegraphics[width=\linewidth]{Without-Correction}
+                \caption{Without $E_{int,nuc}^{0/+}$ }
+        \end{subfigure}
         \caption{Distribution of IPs of bulk liquid water using MP2 and PBE method through ADF \cite{te2001chemistry} adding the extra term ($E_{int,nuc}^{0/+}$). The area subtended by the lines sums up to 69 (ie, the number of subsystems). Dot lines represent the linearly extrapolating from the ($1b_{1}$) peak. The lines fitting the underlying distributions are obtained from a kernel density estimation using Seaborn's Gaussian envelopes\cite{waskom2017c}}
 \end{figure}
 
@@ -406,13 +413,21 @@ However, following values of 9.9 \cite{winter2004full}and 10.06 eV \cite{kurahas
 our results are in completed agreetment.
 
 \begin{figure}[!ht]
+        \captionsetup[subfigure]{labelformat=empty}
         \centering
-        \includegraphics[width=\linewidth]{snapshotsgg}
-        \caption{Distribution of IPs of bulk liquid water using MP2 method through ADF \cite{te2001chemistry} for the first 25 snapshots of the PIMD from Gaiduk et al. The area subtended by the lines sums up to 64 (ie, the number of subsystems). Dot lines represent the linearly extrapolating from the ($1b_{1}$) peak. The lines fitting the underlying distributions are obtained from a kernel density estimation using Seaborn's Gaussian envelopes\cite{waskom2017c}. Left:Average computed along the entire 25 snapshots. Right:Individual superporsition of the 25 snapshots}
+        \begin{subfigure}{0.4\linewidth}
+                \includegraphics[width=\linewidth]{average30}
+                \caption{Average}
+        \end{subfigure}
+        \begin{subfigure}{0.4\linewidth}
+                \includegraphics[width=\linewidth]{total30}
+                \caption{Individual superporsition}
+        \end{subfigure}
+	\caption{Distribution of IPs of bulk liquid water using MP2 method through ADF \cite{te2001chemistry} for the first 25 snapshots of the PIMD from Gaiduk et al. The area subtended by the lines sums up to 64 (ie, the number of subsystems). Dot lines represent the linearly extrapolating from the ($1b_{1}$) peak. The lines fitting the underlying distributions are obtained from a kernel density estimation using Seaborn's Gaussian envelopes\cite{waskom2017c}.}
 \end{figure}
 
-\section{Conclusions}
-q
+\section{Conclusion}
+
 Taking advantage of the density embedding depiction of the electronic structure of a system under periodic boundary conditions, we were able to 
 compute through an impurity model that incorporates charged and neutral finite subsystems within an extended(infinity) surrounding subsystem, 
 the IPs of bulk liquid water. So far, the best average value is 10.25 eV using the PBE level of theory adding the interaction correction to the 
