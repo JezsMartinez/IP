@@ -2,7 +2,6 @@
 \usepackage[a4paper, margin=2cm]{geometry}
 \usepackage{graphicx}
 \usepackage[table]{xcolor}
-\graphicspath{{./images/}}
 \usepackage{subcaption}
 \newcommand{\tr}{\mathrm{tr}}
 \usepackage{hyperref}
@@ -248,7 +247,7 @@ DFT functionals, and their corresponding comparison with MP2. In addition, a sho
   \label{tab:table1}
   \begin{tabular}{ ccc }
   \hline
-          Method &Gas-Phase& IP \\
+          Method &Gas-Phase& Liquid \\
   	\hline
           eQEcs&13.76&10.52\\
           eQEos&12.72&9.49\\
@@ -288,11 +287,11 @@ we present a difference of about 1.0 eV, explained because the usage of open-she
         \captionsetup[subfigure]{labelformat=empty}
         \centering
         \begin{subfigure}{0.4\linewidth}
-                \includegraphics[width=\linewidth]{bulk-eqe-adf}
+                \includegraphics[width=\linewidth]{images/bulk-eqe-adf}
                 \caption{Bulk Liquid Water}
         \end{subfigure}
         \begin{subfigure}{0.4\linewidth}
-                \includegraphics[width=\linewidth]{Iso-eqe-adf}
+                \includegraphics[width=\linewidth]{images/Iso-eqe-adf}
                 \caption{Isolated}
         \end{subfigure}
         \caption{Comparison of the distribution of IPs of bulk liquid water between ADF\cite{te2001chemistry} and eQE \cite{genova2017eqe}. The area subtended by the lines sums up to 64 (ie, the number of subsystems). Left: Embedded water molecules in the bulk. Right: Isolated water molecules. Dot lines represent the average IP. The lines fitting the underlying distributions are obtained from a kernel density estimation using Seaborn's Gaussian envelopes\cite{waskom2017c}}
@@ -331,11 +330,11 @@ DFT methods used here is due to the not exact XC treatment of DFT calculations. 
         \captionsetup[subfigure]{labelformat=empty}
         \centering
         \begin{subfigure}{0.4\linewidth}
-                \includegraphics[width=\linewidth]{bulkmp2dft}
+                \includegraphics[width=\linewidth]{images/bulkmp2dft}
                 \caption{Bulk Liquid Water}
         \end{subfigure}
         \begin{subfigure}{0.4\linewidth}
-                \includegraphics[width=\linewidth]{isomp2dft}
+                \includegraphics[width=\linewidth]{images/isomp2dft}
                 \caption{Isolated}
         \end{subfigure}
         \caption{Distribution of IPs of bulk liquid water using MP2 and DFT methods through ADF \cite{te2001chemistry}. The area subtended by the lines sums up to 64 (ie, the number of subsystems). Left: Embedded water molecules in the bulk. Right: Isolated water molecules. Dot lines represent the average IP. The lines fitting the underlying distributions are obtained from a kernel density estimation using Seaborn's Gaussian envelopes\cite{waskom2017c}}
@@ -357,11 +356,11 @@ include dynamic correlation in the liquid IP estimation. \\
         \captionsetup[subfigure]{labelformat=empty}
         \centering
         \begin{subfigure}{0.4\linewidth}
-                \includegraphics[width=\linewidth]{bulkhfmp2}
+                \includegraphics[width=\linewidth]{images/bulkhfmp2}
                 \caption{Bulk Liquid Water}
         \end{subfigure}
         \begin{subfigure}{0.4\linewidth}
-                \includegraphics[width=\linewidth]{isomp2dft}
+                \includegraphics[width=\linewidth]{images/isomp2dft}
                 \caption{Isolated}
         \end{subfigure}
         \caption{Distribution of IPs of bulk liquid water using MP2 and HF methods through ADF \cite{te2001chemistry}. The area subtended by the lines sums up to 64 (ie, the number of subsystems). Left: Embedded water molecules in the bulk. Right: Isolated water molecules. Dot lines represent the average IP. The lines fitting the underlying distributions are obtained from a kernel density estimation using Seaborn's Gaussian envelopes\cite{waskom2017c}}
@@ -394,11 +393,11 @@ the previously self-consistent GW approach, through PBE functional (Figure 7) an
         \captionsetup[subfigure]{labelformat=empty}
         \centering
         \begin{subfigure}{0.4\linewidth}
-		\includegraphics[width=\linewidth]{Corrected}
+		\includegraphics[width=\linewidth]{images/Corrected}
 		\caption{Adding $E_{int,nuc}^{0/+}$ }
         \end{subfigure}
         \begin{subfigure}{0.4\linewidth}
-                \includegraphics[width=\linewidth]{Without-Correction}
+                \includegraphics[width=\linewidth]{images/Without-Correction}
                 \caption{Without $E_{int,nuc}^{0/+}$ }
         \end{subfigure}
         \caption{Distribution of IPs of bulk liquid water using MP2 and PBE method through ADF \cite{te2001chemistry} adding the extra term ($E_{int,nuc}^{0/+}$). The area subtended by the lines sums up to 69 (ie, the number of subsystems). Dot lines represent the linearly extrapolating from the ($1b_{1}$) peak. The lines fitting the underlying distributions are obtained from a kernel density estimation using Seaborn's Gaussian envelopes\cite{waskom2017c}}
@@ -416,11 +415,11 @@ our results are in completed agreetment.
         \captionsetup[subfigure]{labelformat=empty}
         \centering
         \begin{subfigure}{0.4\linewidth}
-                \includegraphics[width=\linewidth]{average30}
+                \includegraphics[width=\linewidth]{images/average30}
                 \caption{Average}
         \end{subfigure}
         \begin{subfigure}{0.4\linewidth}
-                \includegraphics[width=\linewidth]{total30}
+                \includegraphics[width=\linewidth]{images/total30}
                 \caption{Individual superporsition}
         \end{subfigure}
 	\caption{Distribution of IPs of bulk liquid water using MP2 method through ADF \cite{te2001chemistry} for the first 25 snapshots of the PIMD from Gaiduk et al. The area subtended by the lines sums up to 64 (ie, the number of subsystems). Dot lines represent the linearly extrapolating from the ($1b_{1}$) peak. The lines fitting the underlying distributions are obtained from a kernel density estimation using Seaborn's Gaussian envelopes\cite{waskom2017c}.}
